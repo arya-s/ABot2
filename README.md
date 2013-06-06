@@ -1,0 +1,1 @@
+A simple IRC bot with a web interface.
