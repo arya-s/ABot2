@@ -15,7 +15,6 @@ var config = {
 var irc = require('irc');
 var levelup = require('level');
 var leveldb = levelup(config.db, { valueEncoding: 'json'});
-var uptime = Date.now();
 var bot = new irc.Client(
 	config.server,
 	config.botname,
@@ -27,9 +26,9 @@ var bot = new irc.Client(
 	}
 );
 
+leveldb.get('test', function(err, val) {
+	console.log(';;;;;test=',val);
+});
+
 bot.addListener('message', function(nick, to, text, message){
-	logger.info('['+to+'] '+nick+': '+text);
-	if(text === 'hello'){
-		bot.say(to, 'Hello '+nick);
-	}
 });
