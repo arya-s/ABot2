@@ -9,7 +9,7 @@ var config = {
 	botname: process.env.BOTNAME || 'abot2',
 	server: process.env.IRCSERVER || 'irc.quakenet.org',
 	debug: process.env.DEBUG || false,
-	channels: process.env.CHANNELS || ['#babodebug'],
+	channels: process.env.CHANNELS.split(';') || ['#babodebug'],
 	db: process.env.DB || './db'
 };
 var irc = require('irc');
