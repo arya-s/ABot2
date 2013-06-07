@@ -1,7 +1,7 @@
 var winston = require('winston');
 var logger = new (winston.Logger)({
     transports: [
-      new (winston.transports.Console)({ level: 'error' }),
+      new (winston.transports.Console)({ level: 'info' }),
       new (winston.transports.File)({ filename: './weblog.log' })
     ]
 });
@@ -12,7 +12,6 @@ app.get('/', function(request, response){
 });
 var port = process.env.PORT || 5000;
 app.listen(port, function() {
-	console.log('Listening on '+port);
+	logger.info('Listening on ',port);
 });
-var cultivateDB = require('./MakeDB.js');
 var abot2 = require('./ABot2.js');

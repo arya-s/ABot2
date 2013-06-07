@@ -1,0 +1,27 @@
+{"0":{"table":39321,"key":"entry"},"1":"=","2":{"text":"Test entry"},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T11:11:16.068Z"}
+{"0":{"table":65534,"key":"t2entry"},"1":"=","2":{"text":"Text of test2 entry1"},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T11:11:16.069Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-07T11:11:16.071Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-07T11:11:16.074Z"}
+{"0":{"table":39321,"key":"entry"},"1":"=","2":{"text":"Test entry"},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T11:17:47.508Z"}
+{"0":{"table":65534,"key":"t2entry"},"1":"=","2":{"text":"Text of test2 entry1"},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T11:17:47.509Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-07T11:17:47.511Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-07T11:17:47.512Z"}
+{"0":{"table":39321,"key":"entry"},"1":"=","2":{"text":"Test entry"},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T11:18:12.455Z"}
+{"0":{"table":65534,"key":"t2entry"},"1":"=","2":{"text":"Text of test2 entry1"},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T11:18:12.457Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-07T11:18:12.459Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-07T11:18:12.461Z"}
+{"0":{"table":39321,"key":"entry"},"1":"=","2":{"text":"Test entry"},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T11:41:37.068Z"}
+{"0":{"table":65534,"key":"t2entry"},"1":"=","2":{"text":"Text of test2 entry1"},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T11:41:37.069Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-07T11:41:37.070Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-07T11:41:37.071Z"}
+{"level":"info","message":"Deleted all entries.","timestamp":"2013-06-07T11:41:37.071Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-07T11:43:00.740Z"}
+{"level":"info","message":"Batched all entries.","timestamp":"2013-06-07T13:00:50.933Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T13:01:15.670Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T13:01:15.671Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-07T13:01:15.672Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-07T13:01:15.675Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T13:02:33.834Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T13:02:33.835Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-07T13:02:33.837Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-07T13:02:33.839Z"}
