@@ -25,3 +25,31 @@
 {"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T13:02:33.835Z"}
 {"level":"info","message":"Stream closed.","timestamp":"2013-06-07T13:02:33.837Z"}
 {"level":"info","message":"Closing stream.","timestamp":"2013-06-07T13:02:33.839Z"}
+{"level":"info","message":"Batched all entries.","timestamp":"2013-06-07T18:32:59.937Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T18:32:59.942Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T18:32:59.942Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T18:32:59.942Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T18:32:59.942Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T18:32:59.942Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T18:32:59.943Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T18:32:59.943Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T18:32:59.943Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T18:32:59.943Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T18:32:59.944Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T18:32:59.944Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T18:32:59.944Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T18:32:59.944Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T18:32:59.944Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T18:32:59.945Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T18:32:59.945Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T18:32:59.945Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-07T18:32:59.946Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-07T18:32:59.950Z"}
+{"0":"fanta","1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T19:11:50.910Z"}
+{"0":"fanta","1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-07T19:11:58.864Z"}
+{"level":"info","message":"Retrieved fanta=[object Object]","timestamp":"2013-06-07T19:13:40.985Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-07T19:14:35.283Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-08T05:13:10.135Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-08T05:25:50.345Z"}
+{"level":"info","message":"Retrieved babo=","timestamp":"2013-06-08T05:25:55.874Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-08T05:26:00.384Z"}

@@ -23,11 +23,22 @@ var leveldb = levelup(db, { keyEncoding: 'json', valueEncoding: 'json'});
 exports.store = function(t, k, v, cb){
 	leveldb.put({ table: t, key: k}, v, function(err) {
 		if(err){
-      logger.error('Could not store k='+k+', v=',v);
+      logger.error('Could not store k=',k,', v=',v);
       cb(false);
 		}
     cb(true);
 	});
+};
+
+exports.get = function(t, k, cb){
+  leveldb.get({table: t, key: k}, function(err, value){
+    if(err){
+      logger.error('Could not retrieve value for ',k);
+      cb(err);
+    }
+    logger.info('Retrieved '+k+'=',value);
+    cb(value);
+  })
 };
 
 exports.getAll = function(t, cb){
@@ -45,7 +56,7 @@ exports.getAll = function(t, cb){
   }
 	leveldb.createReadStream()
   .on('data', function(data){
-    logger.info('Retrieved ',data.key, '=', data.value);
+    logger.info('Retrieved ',data.key,'=',data.value);
     filterTable(data);
   })
   .on('error', function (err) {
