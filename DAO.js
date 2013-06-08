@@ -24,26 +24,40 @@ exports.store = function(t, k, v, cb){
 	leveldb.put({ table: t, key: k}, v, function(err) {
 		if(err){
       logger.error('Could not store k=',k,', v=',v);
-      cb(false);
+      cb(err);
 		}
-    cb(true);
+    cb(err);
 	});
+};
+
+exports.del = function(t, k, cb){
+  leveldb.del({table: t, key: k}, function(err){
+    if(err){
+      logger.error('Could not retrieve value for ',k);
+      return cb(err);
+    }
+    logger.info('Deleted ',k);
+    cb(err);
+  });
 };
 
 exports.get = function(t, k, cb){
   leveldb.get({table: t, key: k}, function(err, value){
     if(err){
       logger.error('Could not retrieve value for ',k);
-      cb(err);
+      return cb(err);
     }
     logger.info('Retrieved '+k+'=',value);
-    cb(value);
+    cb(err, value);
   })
 };
 
+//TODO: send err and val into cb
 exports.getAll = function(t, cb){
 	var out = [];
-  function filterTable(data){
+	leveldb.createReadStream()
+  .on('data', function(data){
+    logger.info('Retrieved ',data.key,'=',data.value);
     if(t === exports.ALL){
       out.push(data.key);
       out.push(data.value);
@@ -53,11 +67,6 @@ exports.getAll = function(t, cb){
         out.push(data.value);
       }
     }
-  }
-	leveldb.createReadStream()
-  .on('data', function(data){
-    logger.info('Retrieved ',data.key,'=',data.value);
-    filterTable(data);
   })
   .on('error', function (err) {
     logger.error('Could not retrieve all entries',err);
@@ -88,6 +97,7 @@ exports.clearAll = function(t, cb){
   });
 };
 
+//TODO: send err and val into cb
 exports.batch = function(data, cb){
   leveldb.batch(data, function(err){
     if(err){

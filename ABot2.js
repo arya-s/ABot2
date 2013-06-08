@@ -29,7 +29,7 @@ var bot = new irc.Client(
 bot.addListener('message', function(nick, to, text, message){
 	logger.info('['+to+'] '+nick+': '+text);
 	//checkNotes(to, nick);
-	parseMessage(nick, to, text, message);
+	parseMessage(nick, to, util.trim(text.toLowerCase()), message);
 });
 
 function parseMessage(nick, to, text, message){
@@ -39,12 +39,78 @@ function parseMessage(nick, to, text, message){
 		var cmd = splitted.splice(0, 1)[0].substring(1);
 		var msg = splitted.join(' ');
 		if(operator === '!'){
+			if(cmd === 'note'){
+
+			} else if(cmd === 'alias'){
+				addAlias(to, msg);
+			}
 		} else if(operator === '?'){
 			if(cmd === 'uptime'){
 				tellUptime(to);
+			} else if(cmd === 'users'){
+				tellBaseUsers(to);
+			} else if(cmd === 'alias'){
+				tellAlias(to, msg);
 			}
 		}
 	}
+}
+
+function addAlias(to, msg){
+	var splitted = msg.split(' ');
+	if(splitted.length === 2){
+		var user = splitted[0];
+		var alias = splitted[1];
+		DAO.get(DAO.USERS, user, function(err, data){
+			if(err){
+				bot.say(to, 'Databases error occured. User might not exist. Use ?users to list available users.');
+				return;
+			}
+			var a = data.aliases;
+			a.push(alias);
+			DAO.del(DAO.USERS, user, function(err){
+				if(err){
+					bot.say(to, 'Could not add alias to user.');
+					return;
+				}
+				DAO.store(DAO.USERS, user, { aliases: a }, function(err){
+					if(err){
+						bot.say(to, 'Could not add alias to user.');
+						return;
+					}
+					bot.say(to, 'Added alias '+alias+' to '+user+'.');
+				});
+			});
+		});
+	} else {
+		bot.say(to, 'Command usage: !alias <user> <alias>');
+		bot.say(to, 'Adds <alias> to <user>\'s existing aliases. Use ?users to list available users.');
+	}
+}
+
+function tellAlias(to, user){
+	if(user.length > 0){
+		DAO.get(DAO.USERS, user, function(err, data){
+			if(err){
+				bot.say(to, 'Databases error occured. User might not exist. Use ?users to list available users.');
+				return;
+			}
+			bot.say(to, data.aliases.join(', '));
+		});
+	} else {
+		bot.say(to, 'Command usage: ?alias <user>');
+		bot.say(to, 'Shows <user>\'s aliases. Use ?users to list available users.');
+	}
+}
+
+function tellBaseUsers(to){
+	DAO.getAll(DAO.USERS, function(data){
+		var users = [];
+		for(var i=0; i<data.length; i+=2){
+			users.push(data[i].key);
+		}
+		bot.say(to, users.join(', '));
+	});
 }
 
 function tellUptime(to){
