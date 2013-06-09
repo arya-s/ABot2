@@ -79,7 +79,7 @@ function sendNote(to, from, msg){
 				storedNotes = data.notes;
 			}
 			storedNotes.push({sender: from, sentAt: now, text: message, deleted: false });
-			DAO.store(DAO.notes, receiver, { notes: storedNotes }, function(err){
+			DAO.store(DAO.NOTES, receiver, { notes: storedNotes }, function(err){
 				if(err){
 					bot.say(to, 'Could not store the note. Please try again.');
 					return;
