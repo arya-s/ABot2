@@ -36,9 +36,52 @@ var bot = new irc.Client(
 
 bot.addListener('message', function(nick, to, text, message){
 	logger.info('['+to+'] '+nick+': '+text);
-	//checkNotes(to, nick);
+	checkNotes(to, nick);
 	parseMessage(nick, to, util.trim(text.toLowerCase()), message);
 });
+
+function checkNotes(to, nick){
+	var searchNick = util.trim(nick.toLowerCase());
+	DAO.getAll(DAO.USERS, function(data){
+		var aliases = [];
+		//Find the aliases of the user who's alias was specified
+		for(var i=0; i<data.length; i++){
+			if(i%2 === 1){
+				if(data[i].aliases.indexOf(searchNick) !== -1){
+					aliases = data[i].aliases;
+					break;
+				}
+			}
+		}
+		//Check notes for each alias
+		for(var i=0; i<aliases.length; i++){
+			DAO.get(DAO.NOTES, aliases[i], function(err, data){
+				var activeNotes = [];
+				if(!err){
+					var notes = data.notes;
+					for(var j=0; j<notes.length; j++){
+						if(!notes[j].deleted){
+							activeNotes.push(notes[j]);
+						}
+					}
+					if(activeNotes.length > 0){
+						//Sort the messages from oldest to newest
+						//@see: http://stackoverflow.com/questions/10123953/sort-javascript-object-array-by-date
+						activeNotes.sort(function(a,b){
+							a = a.sentAt;
+							b = b.sentAt;
+							return a<b?-1:a>b?1:0;
+						});
+						for(var k=0; k<activeNotes.length; k++){
+							var msg = activeNotes[k];
+							bot.say(to, nick+': '+msg.sender+' left you a note '+timestamp(msg.sentAt)+' ago: '+msg.text);
+						}
+					}
+				}
+			});
+		}
+	});
+}
 
 function parseMessage(nick, to, text, message){
 	var operator = text.charAt(0);

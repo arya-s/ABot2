@@ -1216,3 +1216,1114 @@
 {"level":"info","message":"Stream closed.","timestamp":"2013-06-08T21:58:02.048Z"}
 {"level":"info","message":"Closing stream.","timestamp":"2013-06-08T21:58:02.048Z"}
 {"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-08T21:58:16.336Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:36:11.127Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:36:11.128Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:36:11.129Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:36:11.129Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:36:11.130Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:36:11.130Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:36:11.130Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:36:11.130Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:36:11.130Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:36:11.130Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:36:11.131Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:36:11.131Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:36:11.131Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:36:11.131Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:36:11.131Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T05:36:11.131Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T05:36:11.132Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T05:36:26.204Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T05:36:45.151Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T05:36:59.897Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T05:36:59.897Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T05:37:05.733Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:42:19.753Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:42:19.754Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:42:19.755Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:42:19.756Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:42:19.756Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:42:19.756Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:42:19.756Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:42:19.756Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:42:19.757Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:42:19.757Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:42:19.757Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:42:19.757Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:42:19.757Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:42:19.757Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:42:19.757Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:42:19.757Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T05:42:19.758Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T05:42:19.758Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T05:42:33.821Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T05:42:43.456Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-09T05:42:43.456Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T05:42:46.107Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:56:56.598Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:56:56.599Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:56:56.600Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:56:56.600Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:56:56.601Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:56:56.601Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:56:56.601Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:56:56.601Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:56:56.601Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:56:56.601Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:56:56.602Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:56:56.602Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:56:56.602Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:56:56.602Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:56:56.602Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:56:56.602Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T05:56:56.603Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T05:56:56.603Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:09.447Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:09.447Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:09.448Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:09.448Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:09.448Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:09.448Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:09.449Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:09.449Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:09.449Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:09.450Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:09.450Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:09.451Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:09.451Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:09.451Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:09.451Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:09.452Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:09.452Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:09.452Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:09.453Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T05:57:09.453Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T05:57:09.453Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:21.415Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-09T05:57:21.415Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:21.416Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:21.416Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:21.417Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:21.417Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:21.417Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:21.417Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:21.418Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:21.418Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:21.418Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:21.418Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:21.419Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:21.419Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:21.420Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:21.422Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:21.422Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:21.422Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:21.422Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:21.422Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T05:57:21.423Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T05:57:21.424Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:23.970Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:23.970Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:23.970Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:23.970Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:23.971Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:23.971Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:23.971Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:23.971Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:23.972Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:23.972Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:23.972Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:23.972Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:23.973Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:23.973Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:23.973Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:23.973Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:23.973Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:23.974Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:57:23.974Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T05:57:23.974Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T05:57:23.974Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:58:09.876Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:58:09.877Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:58:09.878Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:58:09.879Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:58:09.879Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:58:09.879Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:58:09.879Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:58:09.879Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:58:09.880Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:58:09.880Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:58:09.880Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:58:09.880Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:58:09.880Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:58:09.880Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:58:09.880Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:58:09.881Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T05:58:09.881Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T05:58:09.881Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:59:01.734Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:59:01.734Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:59:01.735Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:59:01.735Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:59:01.735Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:59:01.735Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:59:01.736Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:59:01.736Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:59:01.736Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:59:01.736Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:59:01.738Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:59:01.738Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:59:01.738Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:59:01.738Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:59:01.738Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:59:01.739Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:59:01.739Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:59:01.739Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T05:59:01.739Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T05:59:01.740Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T05:59:01.740Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:07.606Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:07.608Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:07.609Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:07.609Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:07.609Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:07.609Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:07.610Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:07.610Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:07.610Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:07.610Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:07.610Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:07.610Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:07.610Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:07.611Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:07.611Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:07.611Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:01:07.611Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:01:07.611Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:16.230Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:16.230Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:16.231Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:16.231Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:16.231Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:16.231Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:16.232Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:16.232Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:16.232Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:16.233Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:16.234Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:16.234Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:16.234Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:16.235Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:16.235Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:16.235Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:16.235Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:16.235Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:01:16.236Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:01:16.236Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:01:16.236Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:34.478Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:34.479Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:34.481Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:34.481Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:34.481Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:34.481Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:34.481Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:34.482Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:34.482Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:34.482Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:34.482Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:34.482Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:34.482Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:34.483Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:34.483Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:34.483Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:02:34.483Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:02:34.483Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:43.962Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:43.962Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:43.962Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:43.963Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:43.963Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:43.963Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:43.964Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:43.964Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:43.964Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:43.964Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:43.965Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:43.966Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:43.966Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:43.966Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:43.966Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:43.966Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:43.967Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:43.967Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:02:43.967Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:02:43.967Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:02:43.968Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:03:59.697Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:03:59.698Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:03:59.700Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:03:59.700Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:03:59.700Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:03:59.700Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:03:59.700Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:03:59.701Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:03:59.701Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:03:59.701Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:03:59.701Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:03:59.701Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:03:59.701Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:03:59.701Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:03:59.702Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:03:59.702Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:03:59.702Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:04:09.267Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:04:09.268Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:04:09.268Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:04:09.268Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:04:09.268Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:04:09.268Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:04:09.269Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:04:09.269Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:04:09.269Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:04:09.270Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:04:09.271Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:04:09.271Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:04:09.271Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:04:09.272Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:04:09.272Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:04:09.272Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:04:09.272Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:04:09.273Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:04:09.273Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:04:09.273Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:04:09.275Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:04:09.276Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:04:09.276Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:04:09.276Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:04:09.276Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:04:09.276Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:04:09.276Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:04:09.276Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-09T06:04:09.277Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:04:09.277Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:41.720Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:41.721Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:41.722Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:41.723Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:41.723Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:41.723Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:41.723Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:41.723Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:41.724Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:41.724Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:41.724Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:41.724Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:41.724Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:41.724Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:41.725Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:41.725Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:06:41.725Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:06:41.725Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:56.961Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:56.961Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:56.962Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:56.962Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:56.962Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:56.962Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:56.963Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:56.963Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:56.963Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:56.963Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:56.965Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:56.965Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:56.965Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:56.965Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:56.965Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:56.966Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:56.966Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:56.966Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:06:56.966Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:06:56.966Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:06:56.968Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:06:56.968Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:06:56.968Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:06:56.968Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:06:56.968Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:06:56.968Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:06:56.968Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:06:56.969Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-09T06:06:56.969Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:06:56.969Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:07:52.532Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:07:52.533Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:07:52.535Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:07:52.535Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:07:52.535Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:07:52.535Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:07:52.535Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:07:52.535Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:07:52.536Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:07:52.536Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:07:52.536Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:07:52.536Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:07:52.536Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:07:52.536Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:07:52.537Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:07:52.537Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:07:52.537Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:07:52.537Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:00.793Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:00.794Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:00.794Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:00.794Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:00.794Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:00.795Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:00.795Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:00.795Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:00.796Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:00.796Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:00.797Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:00.797Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:00.797Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:00.798Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:00.798Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:00.798Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:00.798Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:00.799Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:00.799Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:08:00.799Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:08:00.800Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:08:00.802Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:08:00.802Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:08:00.802Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:08:00.802Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:08:00.802Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:08:00.802Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:08:00.803Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-09T06:08:00.803Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:08:00.803Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:46.838Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:46.839Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:46.840Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:46.840Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:46.840Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:46.841Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:46.841Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:46.841Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:46.841Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:46.841Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:46.841Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:46.841Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:46.842Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:46.842Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:46.842Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:46.842Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:08:46.842Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:08:46.843Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:53.138Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:53.138Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:53.139Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:53.139Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:53.139Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:53.139Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:53.140Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:53.140Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:53.140Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:53.141Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:53.142Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:53.142Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:53.142Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:53.142Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:53.143Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:53.143Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:53.143Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:53.143Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:08:53.143Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:08:53.144Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:08:53.146Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:08:53.146Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:08:53.147Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:08:53.147Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:08:53.147Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:08:53.147Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:08:53.147Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:08:53.147Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-09T06:08:53.147Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:08:53.147Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:09:54.465Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:09:54.466Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:09:54.467Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:09:54.468Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:09:54.468Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:09:54.468Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:09:54.468Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:09:54.468Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:09:54.468Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:09:54.469Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:09:54.469Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:09:54.469Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:09:54.469Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:09:54.469Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:09:54.469Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:09:54.469Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:09:54.470Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:09:54.470Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:10:01.010Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:10:01.010Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:10:01.011Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:10:01.011Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:10:01.011Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:10:01.011Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:10:01.012Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:10:01.012Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:10:01.012Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:10:01.012Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:10:01.013Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:10:01.014Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:10:01.014Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:10:01.014Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:10:01.014Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:10:01.015Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:10:01.015Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:10:01.015Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:10:01.015Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:10:01.015Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:10:01.018Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:10:01.018Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:10:01.019Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:10:01.019Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:10:01.019Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:10:01.019Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:10:01.019Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:10:01.019Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-09T06:10:01.019Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:10:01.019Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:20.155Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:20.156Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:20.157Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:20.158Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:20.158Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:20.158Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:20.158Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:20.158Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:20.158Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:20.158Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:20.159Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:20.159Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:20.159Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:20.159Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:20.159Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:20.159Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:11:20.160Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:11:20.160Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:27.522Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:27.522Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:27.523Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:27.523Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:27.523Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:27.523Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:27.524Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:27.524Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:27.524Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:27.524Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:27.526Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:27.526Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:27.526Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:27.526Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:27.526Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:27.527Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:27.527Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:27.527Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:11:27.528Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:11:27.528Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:11:27.529Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:11:27.530Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:11:27.530Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:11:27.530Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:11:27.530Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:11:27.530Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:11:27.530Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:11:27.531Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-09T06:11:27.531Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:11:27.532Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:32.390Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:32.391Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:32.393Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:32.393Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:32.393Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:32.393Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:32.393Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:32.393Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:32.393Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:32.394Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:32.394Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:32.394Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:32.394Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:32.394Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:32.394Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:32.394Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:13:32.395Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:13:32.395Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:38.915Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:38.915Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:38.915Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:38.916Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:38.916Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:38.916Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:38.917Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:38.917Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:38.917Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:38.917Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:38.918Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:38.919Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:38.919Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:38.919Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:38.919Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:38.920Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:38.920Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:38.920Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:13:38.920Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:13:38.921Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:13:38.922Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:13:38.922Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:13:38.923Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:13:38.923Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:13:38.923Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:13:38.923Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:13:38.923Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:13:38.923Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-09T06:13:38.923Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:13:38.924Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:28.179Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:28.180Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:28.181Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:28.182Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:28.182Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:28.182Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:28.182Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:28.182Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:28.182Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:28.182Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:28.183Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:28.183Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:28.183Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:28.183Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:28.183Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:28.183Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:15:28.184Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:15:28.184Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:36.120Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:36.120Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:36.120Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:36.121Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:36.121Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:36.121Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:36.122Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:36.122Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:36.122Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:36.122Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:36.123Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:36.124Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:36.124Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:36.124Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:36.124Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:36.125Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:36.125Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:36.125Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:15:36.125Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:15:36.126Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:15:36.127Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:15:36.127Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:15:36.127Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:15:36.127Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:15:36.127Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:15:36.128Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:15:36.128Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:15:36.128Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-09T06:15:36.128Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:15:36.128Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:34.461Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:34.462Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:34.464Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:34.464Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:34.464Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:34.464Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:34.464Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:34.465Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:34.465Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:34.465Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:34.465Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:34.465Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:34.465Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:34.465Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:34.466Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:34.466Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:16:34.466Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:16:34.466Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:40.751Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:40.751Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:40.752Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:40.752Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:40.752Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:40.752Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:40.753Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:40.753Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:40.753Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:40.753Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:40.754Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:40.755Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:40.755Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:40.755Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:40.755Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:40.756Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:40.756Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:40.756Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:16:40.757Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:16:40.757Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:16:40.758Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:16:40.759Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:16:40.759Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:16:40.759Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:16:40.759Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:16:40.759Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:16:40.759Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:16:40.760Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-09T06:16:40.760Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:16:40.761Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:41.105Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:41.107Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:41.108Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:41.108Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:41.108Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:41.108Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:41.108Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:41.109Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:41.109Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:41.109Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:41.109Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:41.109Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:41.109Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:41.109Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:41.110Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:41.110Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:17:41.110Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:17:41.110Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:48.879Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:48.879Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:48.880Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:48.880Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:48.880Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:48.880Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:48.880Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:48.881Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:48.881Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:48.881Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:48.882Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:48.882Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:48.882Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:48.882Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:48.883Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:17:48.883Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:20.131Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:20.132Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:20.133Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:20.133Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:20.133Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:20.134Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:20.134Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:20.134Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:20.134Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:20.134Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:20.134Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:20.134Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:20.134Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:20.135Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:20.135Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:20.135Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:18:20.135Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:18:20.135Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:26.643Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:26.643Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:26.644Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:26.644Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:26.644Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:26.644Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:26.645Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:26.645Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:26.645Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:26.645Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:26.646Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:26.647Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:26.647Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:26.647Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:26.647Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:26.648Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:26.648Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:26.648Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:18:26.649Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:18:26.649Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:18:26.650Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:18:26.651Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:18:26.651Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:18:26.651Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:18:26.651Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:18:26.651Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:18:26.651Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:18:26.652Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-09T06:18:26.652Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:18:26.652Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:19:59.376Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:19:59.377Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:19:59.379Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:19:59.379Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:19:59.379Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:19:59.379Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:19:59.379Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:19:59.380Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:19:59.380Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:19:59.380Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:19:59.380Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:19:59.380Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:19:59.380Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:19:59.380Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:19:59.381Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:19:59.381Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:19:59.381Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:19:59.381Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:16.360Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:16.360Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:16.360Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:16.360Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:16.361Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:16.361Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:16.361Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:16.362Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:16.362Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:16.362Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:16.363Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:16.363Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:16.364Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:16.364Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:16.364Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:16.364Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:16.364Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:16.365Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:16.365Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:20:16.365Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:20:16.367Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:20:16.367Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:20:16.367Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:20:16.367Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:20:16.368Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:20:16.368Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:20:16.368Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:20:16.368Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-09T06:20:16.368Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:20:16.369Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:29.287Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:29.288Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:29.290Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:29.290Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:29.290Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:29.290Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:29.290Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:29.290Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:29.291Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:29.291Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:29.291Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:29.291Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:29.291Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:29.291Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:29.291Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:29.292Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:20:29.292Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:20:29.292Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:43.378Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:43.378Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:43.378Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:43.379Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:43.379Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:43.379Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:43.380Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:43.380Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:43.380Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:43.380Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:43.382Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:43.382Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:43.382Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:43.382Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:43.382Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:43.383Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:43.383Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:43.383Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:20:43.384Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:20:43.384Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:20:43.385Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:20:43.386Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:20:43.386Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:20:43.386Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:20:43.386Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:20:43.386Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:20:43.386Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:20:43.387Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-09T06:20:43.387Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:20:43.388Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:14.057Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:14.058Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:14.060Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:14.060Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:14.060Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:14.060Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:14.060Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:14.060Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:14.061Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:14.061Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:14.061Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:14.061Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:14.061Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:14.062Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:14.062Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:14.062Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:21:14.062Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:21:14.062Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:21.733Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:21.734Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:21.734Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:21.734Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:21.735Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:21.735Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:21.735Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:21.736Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:21.736Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:21.736Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:21.737Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:21.737Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:21.738Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:21.738Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:21.738Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:21.739Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:21.739Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:21.739Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:21:21.739Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:21:21.739Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:21:21.741Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:21:21.741Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:21:21.741Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:21:21.741Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:21:21.742Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:21:21.742Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:21:21.742Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:21:21.742Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-09T06:21:21.742Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:21:21.743Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:09.529Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:09.530Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:09.532Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:09.532Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:09.532Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:09.532Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:09.532Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:09.532Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:09.533Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:09.533Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:09.533Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:09.533Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:09.533Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:09.533Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:09.534Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:09.534Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:22:09.534Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:22:09.534Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:36.185Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:36.185Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:36.185Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:36.185Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:36.186Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:36.186Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:36.186Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:36.187Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:36.187Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:36.187Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:36.188Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:36.188Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:36.189Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:36.189Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:36.189Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:36.189Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:36.190Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:36.190Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:22:36.190Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:22:36.191Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:22:36.192Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:22:36.193Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:22:36.193Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:22:36.193Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:22:36.193Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:22:36.193Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:22:36.194Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:22:36.194Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-09T06:22:36.194Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:22:36.196Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:05.881Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:05.882Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:05.883Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:05.884Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:05.884Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:05.884Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:05.884Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:05.884Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:05.884Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:05.885Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:05.885Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:05.885Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:05.885Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:05.885Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:05.885Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:05.885Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:23:05.886Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:23:05.886Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:13.036Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:13.037Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:13.037Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:13.037Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:13.038Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:13.038Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:13.038Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:13.039Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:13.039Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:13.039Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:13.040Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:13.040Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:13.041Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:13.041Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:13.041Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:13.041Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:13.041Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:13.042Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:13.042Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:23:13.042Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:23:13.044Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:23:13.044Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:23:13.044Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:23:13.044Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:23:13.044Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:23:13.045Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:23:13.045Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:23:13.045Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-09T06:23:13.045Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:23:13.047Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:34.599Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:23:34.601Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:34.602Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:34.603Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:34.603Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:34.603Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:34.604Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:34.604Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:34.604Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:34.604Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:34.605Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:34.605Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:34.606Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:34.606Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:34.607Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:34.607Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:34.607Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:34.607Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:34.608Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:23:34.608Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:23:34.608Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:23:34.608Z"}
+{"level":"info","message":"Retrieved arya=","timestamp":"2013-06-09T06:23:34.609Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:23:34.609Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:23:34.609Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:23:34.609Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:23:34.609Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:23:34.610Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:23:34.610Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-09T06:23:34.610Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:23:34.611Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:24:59.301Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:24:59.301Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:24:59.302Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:24:59.302Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:24:59.302Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:24:59.302Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:24:59.302Z"}
+{"0":{"table":2,"key":"arya"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370759014,"text":"lol","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:24:59.303Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:24:59.303Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:24:59.304Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:24:59.304Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:24:59.304Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:24:59.304Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:24:59.304Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:24:59.305Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:24:59.305Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:24:59.305Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:24:59.305Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:24:59.306Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:24:59.306Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:24:59.306Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:24:59.306Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:24:59.307Z"}
+{"level":"info","message":"Retrieved arya=","timestamp":"2013-06-09T06:24:59.308Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:24:59.308Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:24:59.308Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:24:59.308Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:24:59.308Z"}
+{"level":"info","message":"Retrieved mya=","timestamp":"2013-06-09T06:24:59.308Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:24:59.309Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-09T06:24:59.309Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:24:59.310Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:25:53.495Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:25:53.496Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:25:53.497Z"}
+{"0":{"table":2,"key":"arya"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370759014,"text":"lol","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:25:53.497Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:25:53.497Z"}
+{"0":{"table":2,"key":"mya"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370759099,"text":"test","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:25:53.498Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:25:53.498Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:25:53.498Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:25:53.498Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:25:53.498Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:25:53.499Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:25:53.499Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:25:53.499Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:25:53.499Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:25:53.499Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:25:53.499Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:25:53.499Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:25:53.500Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:25:53.500Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:25:53.500Z"}
+{"0":{"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370728026,"text":"t1","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:26:06.735Z"}
+{"0":{"table":1,"key":"r1"},"1":"=","2":{"text":"Okay, okay. I got your note, relax."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:26:06.735Z"}
+{"0":{"table":1,"key":"r2"},"1":"=","2":{"text":"I'll deliver your note. If I feel like it."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:26:06.736Z"}
+{"0":{"table":1,"key":"r3"},"1":"=","2":{"text":"Note accepted."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:26:06.736Z"}
+{"0":{"table":1,"key":"r4"},"1":"=","2":{"text":"Yea yea, shut up already."},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:26:06.736Z"}
+{"0":{"table":1,"key":"r5"},"1":"=","2":{"text":"Do you really think your note is so important?"},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:26:06.737Z"}
+{"0":{"table":2,"key":"arya"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370759014,"text":"lol","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:26:06.737Z"}
+{"0":{"table":2,"key":"fanta"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370756219,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370756563,"text":"hi","deleted":false},{"sender":"Arya","sentAt":1370757441,"text":"hi","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:26:06.737Z"}
+{"0":{"table":2,"key":"mya"},"1":"=","2":{"notes":[{"sender":"Arya","sentAt":1370759099,"text":"test","deleted":false}]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:26:06.738Z"}
+{"0":{"table":3,"key":"babo"},"1":"=","2":{"aliases":["b4bofitos","dronebabo","babof1tos","miyako","heist","babo"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:26:06.738Z"}
+{"0":{"table":3,"key":"brian"},"1":"=","2":{"aliases":["brian_","brain","brian"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:26:06.739Z"}
+{"0":{"table":3,"key":"brood"},"1":"=","2":{"aliases":["berude","brood"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:26:06.739Z"}
+{"0":{"table":3,"key":"darkcell"},"1":"=","2":{"aliases":["darkcell_","darkcell"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:26:06.739Z"}
+{"0":{"table":3,"key":"fanta"},"1":"=","2":{"aliases":["fanta[rn]","arya","stark","arya_s","archya","irya","mya","fantiball","fanta"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:26:06.739Z"}
+{"0":{"table":3,"key":"geobie"},"1":"=","2":{"aliases":["geo","geobie"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:26:06.740Z"}
+{"0":{"table":3,"key":"intrigue"},"1":"=","2":{"aliases":["intrigue_","intrigue"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:26:06.740Z"}
+{"0":{"table":3,"key":"locked"},"1":"=","2":{"aliases":["locked_","locked"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:26:06.740Z"}
+{"0":{"table":3,"key":"mahnini"},"1":"=","2":{"aliases":["mahnini_","mairnini","smartnini","mahnini"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:26:06.740Z"}
+{"0":{"table":3,"key":"milchmann"},"1":"=","2":{"aliases":["milchmann_","milchmann"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:26:06.741Z"}
+{"0":{"table":3,"key":"rage"},"1":"=","2":{"aliases":["vgl-rage","pardon","rage"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:26:06.741Z"}
+{"0":{"table":3,"key":"soyu"},"1":"=","2":{"aliases":["soyu_","soyuu","s0yu","soyu"]},"level":"info","message":"Retrieved ","timestamp":"2013-06-09T06:26:06.741Z"}
+{"level":"info","message":"Stream closed.","timestamp":"2013-06-09T06:26:06.741Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:26:06.743Z"}
+{"level":"info","message":"Retrieved arya=","timestamp":"2013-06-09T06:26:06.743Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:26:06.744Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:26:06.744Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:26:06.744Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:26:06.744Z"}
+{"level":"info","message":"Retrieved mya=","timestamp":"2013-06-09T06:26:06.745Z"}
+{"level":"error","message":"Could not retrieve value for ","timestamp":"2013-06-09T06:26:06.745Z"}
+{"level":"info","message":"Retrieved fanta=","timestamp":"2013-06-09T06:26:06.745Z"}
+{"level":"info","message":"Closing stream.","timestamp":"2013-06-09T06:26:06.745Z"}
