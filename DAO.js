@@ -72,7 +72,6 @@ exports.getAll = function(t, cb){
   })
   .on('error', function (err) {
     logger.error('Could not retrieve all entries',err);
-    return;
   })
   .on('close', function () {
     logger.info('Closing stream.');

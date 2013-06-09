@@ -41,41 +41,48 @@ bot.addListener('message', function(nick, to, text, message){
 });
 
 function checkNotes(to, nick){
-	var searchNick = util.trim(nick.toLowerCase());
+	//4) Deliver the notes
+	//5) Mark them as read and restore.
+	var alias = util.trim(nick.toLowerCase());
 	DAO.getAll(DAO.USERS, function(data){
-		var aliases = [];
-		//Find the aliases of the user who's alias was specified
+		//Find out the user to this alias
+		var user = '';
 		for(var i=0; i<data.length; i++){
 			if(i%2 === 1){
-				if(data[i].aliases.indexOf(searchNick) !== -1){
-					aliases = data[i].aliases;
+				if(data[i].aliases.indexOf(alias) !== -1){
+					//Found the alias in this user's aliases -> save the user
+						user = data[i-1].key;
 					break;
 				}
 			}
 		}
-		//Check notes for each alias
-		for(var i=0; i<aliases.length; i++){
-			DAO.get(DAO.NOTES, aliases[i], function(err, data){
-				var activeNotes = [];
+		//Check all undeleted notes, then delete them
+		if(user.length > 0){
+			DAO.get(DAO.NOTES, user, function(err, data){
 				if(!err){
-					var notes = data.notes;
-					for(var j=0; j<notes.length; j++){
-						if(!notes[j].deleted){
-							activeNotes.push(notes[j]);
-						}
-					}
-					if(activeNotes.length > 0){
+					var retrievedNotes = data.notes;
+					if(retrievedNotes.length > 0){
 						//Sort the messages from oldest to newest
 						//@see: http://stackoverflow.com/questions/10123953/sort-javascript-object-array-by-date
-						activeNotes.sort(function(a,b){
+						retrievedNotes.sort(function(a,b){
 							a = a.sentAt;
 							b = b.sentAt;
 							return a<b?-1:a>b?1:0;
 						});
-						for(var k=0; k<activeNotes.length; k++){
-							var msg = activeNotes[k];
-							bot.say(to, nick+': '+msg.sender+' left you a note '+timestamp(msg.sentAt)+' ago: '+msg.text);
+						for(var i=0; i<retrievedNotes.length; i++){
+							var msg = retrievedNotes[i];
+							if(!msg.deleted){
+								bot.say(to, nick+': '+msg.sender+' left you a note '+timestamp(msg.sentAt)+' ago: '+msg.text);
+								//Mark as deleted
+								retrievedNotes[i].deleted = true;
+							}
 						}
+						//Restore
+						DAO.store(DAO.NOTES, user, { notes: retrievedNotes }, function(err){
+							if(err){
+								logger.error('Could not restore notes.');
+							}
+						});
 					}
 				}
 			});
@@ -111,24 +118,42 @@ function parseMessage(nick, to, text, message){
 
 function sendNote(to, from, msg){
 	var splitted = msg.split(' ');
-	if(splitted.length === 2){
+	if(splitted.length >= 2){
 		var now = time.time();
 		var receiver = splitted.splice(0, 1)[0];
 		var message = splitted.join(' ');
-		DAO.get(DAO.NOTES, receiver, function(err, data){
-			var storedNotes = [];
-			if(!err){
-				//If notes exists, we have to store them
-				storedNotes = data.notes;
-			}
-			storedNotes.push({sender: from, sentAt: now, text: message, deleted: false });
-			DAO.store(DAO.NOTES, receiver, { notes: storedNotes }, function(err){
-				if(err){
-					bot.say(to, 'Could not store the note. Please try again.');
-					return;
+		//To make notes checking easier, we want to save the note to the base user, not the alias
+		DAO.getAll(DAO.USERS, function(data){
+			var user = '';
+			//Find out the user to this alias
+			for(var i=0; i<data.length; i++){
+				if(i%2 === 1){
+					if(data[i].aliases.indexOf(receiver) !== -1){
+						//Found the alias in this user's aliases -> save the user
+						user = data[i-1].key;
+						break;
+					}
 				}
-				bot.say(to, responses[util.rnd(0, responses.length)]);
-			});
+			}
+			//get all notes from this user so we don't overwrite previously undelivered notes
+			if(user.length > 0){
+				DAO.get(DAO.NOTES, user, function(err, data){
+					var storedNotes = [];
+					if(!err){
+						//If notes exists, we have to store them
+						storedNotes = data.notes;
+					}
+					//Save the new note
+					storedNotes.push({ sender: from, sentAt: now, text: message, deleted: false });
+					DAO.store(DAO.NOTES, user, { notes: storedNotes }, function(err){
+						if(err){
+							bot.say(to, 'Could not store the note. Please try again.');
+							return;
+						}
+						bot.say(to, responses[util.rnd(0, responses.length)]);
+					});
+				});
+			}
 		});
 	} else {
 		bot.say(to, 'Command usage: !note <alias> <message>.');
