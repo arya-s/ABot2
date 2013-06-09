@@ -97,3 +97,59 @@
 {"level":"info","message":"[#babodebug] Arya: !alias rage rage","timestamp":"2013-06-08T20:17:47.542Z"}
 {"level":"info","message":"[#babodebug] Arya: ?alias soyu","timestamp":"2013-06-08T20:17:55.264Z"}
 {"level":"info","message":"[#babodebug] Arya: !alias soyu soyu","timestamp":"2013-06-08T20:18:02.216Z"}
+{"level":"info","message":"[#babodebug] babof1tos: ?uptime","timestamp":"2013-06-08T20:24:16.147Z"}
+{"level":"info","message":"[#babodebug] abot2: I've been slaving away for you shitty humans for 14 hours 14 minutes 4 seconds.","timestamp":"2013-06-08T20:24:17.166Z"}
+{"level":"info","message":"[#babodebug] babof1tos: ?uptime","timestamp":"2013-06-08T20:24:27.820Z"}
+{"level":"info","message":"[#babodebug] abot2: I've been slaving away for you shitty humans for 14 hours 14 minutes 15 seconds.","timestamp":"2013-06-08T20:24:28.226Z"}
+{"level":"info","message":"[#babodebug] babof1tos: ?uptime","timestamp":"2013-06-08T20:24:48.095Z"}
+{"level":"info","message":"[#babodebug] abot2: I've been slaving away for you shitty humans for 14 hours 15 minutes 35 seconds.","timestamp":"2013-06-08T20:24:48.399Z"}
+{"level":"info","message":"[#babodebug] Arya: 21 is local","timestamp":"2013-06-08T20:24:48.808Z"}
+{"level":"info","message":"[#babodebug] babof1tos: ?uptime","timestamp":"2013-06-08T20:24:53.555Z"}
+{"level":"info","message":"[#babodebug] abot2: I've been slaving away for you shitty humans for 14 hours 15 minutes 41 seconds.","timestamp":"2013-06-08T20:24:54.239Z"}
+{"level":"info","message":"[#babodebug] babof1tos: ?uptime","timestamp":"2013-06-08T20:25:00.577Z"}
+{"level":"info","message":"[#babodebug] abot2: I've been slaving away for you shitty humans for 14 hours 15 minutes 48 seconds.","timestamp":"2013-06-08T20:25:01.192Z"}
+{"level":"info","message":"[#babodebug] babof1tos: ?uptime","timestamp":"2013-06-08T20:25:02.841Z"}
+{"level":"info","message":"[#babodebug] abot2: I've been slaving away for you shitty humans for 14 hours 15 minutes 50 seconds.","timestamp":"2013-06-08T20:25:03.246Z"}
+{"level":"info","message":"[#babodebug] babof1tos: see","timestamp":"2013-06-08T20:25:05.704Z"}
+{"level":"info","message":"[#babodebug] Arya: wtf","timestamp":"2013-06-08T20:25:13.787Z"}
+{"level":"info","message":"[#babodebug] Arya: D:","timestamp":"2013-06-08T20:25:16.467Z"}
+{"level":"info","message":"[#babodebug] Arya: thanks","timestamp":"2013-06-08T20:25:44.619Z"}
+{"level":"info","message":"[#babodebug] Arya: ill have a look over that function again","timestamp":"2013-06-08T20:25:50.999Z"}
+{"level":"info","message":"[#babodebug] Arya: ?users","timestamp":"2013-06-08T20:25:55.689Z"}
+{"level":"info","message":"[#babodebug] Arya: ?alias fanta","timestamp":"2013-06-08T20:26:06.011Z"}
+{"level":"info","message":"[#babodebug] Arya: !alias fanta","timestamp":"2013-06-08T20:26:17.387Z"}
+{"level":"info","message":"[#babodebug] Arya: !note","timestamp":"2013-06-08T20:53:36.904Z"}
+{"level":"info","message":"[#babodebug] Arya: !note a","timestamp":"2013-06-08T20:53:47.083Z"}
+{"level":"info","message":"[#babodebug] Arya: !note fanta note1","timestamp":"2013-06-08T20:54:01.123Z"}
+{"level":"info","message":"[#babodebug] Arya: ?notes","timestamp":"2013-06-08T20:54:12.227Z"}
+{"level":"info","message":"[#babodebug] Arya: !note fanta note2","timestamp":"2013-06-08T20:55:37.935Z"}
+{"level":"info","message":"[#babodebug] Arya: ?notes","timestamp":"2013-06-08T20:55:42.350Z"}
+{"level":"info","message":"[#babodebug] Arya: !note fanta 3","timestamp":"2013-06-08T20:57:00.878Z"}
+{"level":"info","message":"[#babodebug] Arya: ?notes","timestamp":"2013-06-08T20:57:09.578Z"}
+{"level":"info","message":"[#babodebug] Arya: !note fanta sup","timestamp":"2013-06-08T20:57:27.187Z"}
+{"level":"info","message":"[#babodebug] Arya: ?notes","timestamp":"2013-06-08T20:57:29.755Z"}
+{"level":"info","message":"[#babodebug] Arya: !note fanta wat","timestamp":"2013-06-08T20:57:38.763Z"}
+{"level":"info","message":"[#babodebug] Arya: ?notes","timestamp":"2013-06-08T20:57:42.666Z"}
+{"level":"info","message":"[#babodebug] Arya: ?notes","timestamp":"2013-06-08T20:59:12.359Z"}
+{"level":"info","message":"[#babodebug] Arya: !note fanta k","timestamp":"2013-06-08T20:59:32.990Z"}
+{"level":"info","message":"[#babodebug] Arya: ?notes","timestamp":"2013-06-08T20:59:38.362Z"}
+{"level":"info","message":"[#babodebug] Arya: ?notes","timestamp":"2013-06-08T21:09:19.270Z"}
+{"level":"info","message":"[#babodebug] Arya: !note fanta t1","timestamp":"2013-06-08T21:09:31.486Z"}
+{"level":"info","message":"[#babodebug] Arya: ?notes","timestamp":"2013-06-08T21:12:10.219Z"}
+{"level":"info","message":"[#babodebug] Arya: ?notes","timestamp":"2013-06-08T21:13:22.165Z"}
+{"level":"info","message":"[#babodebug] Arya: !note fanta t1","timestamp":"2013-06-08T21:26:13.231Z"}
+{"level":"info","message":"[#babodebug] Arya: !note fanta t1","timestamp":"2013-06-08T21:30:26.225Z"}
+{"level":"info","message":"[#babodebug] Arya: !note fanta t1","timestamp":"2013-06-08T21:31:30.160Z"}
+{"level":"info","message":"[#babodebug] Arya: !note fanta t1","timestamp":"2013-06-08T21:32:38.358Z"}
+{"level":"info","message":"[#babodebug] Arya: !note fanta t1","timestamp":"2013-06-08T21:32:43.099Z"}
+{"level":"info","message":"[#babodebug] Arya: !note fanta t1","timestamp":"2013-06-08T21:45:59.323Z"}
+{"level":"info","message":"[#babodebug] Arya: ?notes","timestamp":"2013-06-08T21:46:35.570Z"}
+{"level":"info","message":"[#babodebug] Arya: !note fanta t1","timestamp":"2013-06-08T21:46:41.505Z"}
+{"level":"info","message":"[#babodebug] Arya: ?notes","timestamp":"2013-06-08T21:47:02.297Z"}
+{"level":"info","message":"[#babodebug] Arya: !note fanta t1","timestamp":"2013-06-08T21:47:06.906Z"}
+{"level":"info","message":"[#babodebug] Arya: ?notes","timestamp":"2013-06-08T21:47:11.550Z"}
+{"level":"info","message":"[#babodebug] Arya: ?notes","timestamp":"2013-06-08T21:50:41.537Z"}
+{"level":"info","message":"[#babodebug] Arya: ?notes","timestamp":"2013-06-08T21:50:48.587Z"}
+{"level":"info","message":"[#babodebug] Arya: ?notes","timestamp":"2013-06-08T21:50:59.058Z"}
+{"level":"info","message":"[#babodebug] Arya: ?notes","timestamp":"2013-06-08T21:53:11.953Z"}
+{"level":"info","message":"[#babodebug] Arya: ?notes","timestamp":"2013-06-08T21:53:21.921Z"}

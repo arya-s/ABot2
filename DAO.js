@@ -34,7 +34,8 @@ exports.del = function(t, k, cb){
   leveldb.del({table: t, key: k}, function(err){
     if(err){
       logger.error('Could not retrieve value for ',k);
-      return cb(err);
+      cb(err);
+      return;
     }
     logger.info('Deleted ',k);
     cb(err);
@@ -45,7 +46,8 @@ exports.get = function(t, k, cb){
   leveldb.get({table: t, key: k}, function(err, value){
     if(err){
       logger.error('Could not retrieve value for ',k);
-      return cb(err);
+      cb(err);
+      return;
     }
     logger.info('Retrieved '+k+'=',value);
     cb(err, value);
@@ -90,6 +92,7 @@ exports.clearAll = function(t, cb){
       if(err){
         logger.error('Could not batch delete all entries.');
         cb(true);
+        return;
       }
       logger.info('Deleted all entries.');
       cb(false);
@@ -103,6 +106,7 @@ exports.batch = function(data, cb){
     if(err){
         logger.error('Could not batch all entries.');
         cb(true);
+        return;
       }
       logger.info('Batched all entries.');
       cb(false);

@@ -15,6 +15,14 @@ var config = {
 	channels: ((process.env.DEBUG || false) == true) ? '#babodebug' : (process.env.CHANNELS || '#babodebug').split(';')
 };
 var irc = require('irc');
+var responses = [];
+DAO.getAll(DAO.RESPONSES, function(data){
+	for(var i=0; i<data.length; i++){
+		if(i%2 === 1){
+			responses.push(data[i].text);
+		}
+	}
+});
 var bot = new irc.Client(
 	config.server,
 	config.botname,
@@ -40,7 +48,7 @@ function parseMessage(nick, to, text, message){
 		var msg = splitted.join(' ');
 		if(operator === '!'){
 			if(cmd === 'note'){
-
+				sendNote(to, nick, msg);
 			} else if(cmd === 'alias'){
 				addAlias(to, msg);
 			}
@@ -51,8 +59,37 @@ function parseMessage(nick, to, text, message){
 				tellBaseUsers(to);
 			} else if(cmd === 'alias'){
 				tellAlias(to, msg);
+			} else if(cmd === 'notes'){
+				tellNotes(to);
 			}
 		}
+	}
+}
+
+function sendNote(to, from, msg){
+	var splitted = msg.split(' ');
+	if(splitted.length === 2){
+		var now = time.time();
+		var receiver = splitted.splice(0, 1)[0];
+		var message = splitted.join(' ');
+		DAO.get(DAO.NOTES, receiver, function(err, data){
+			var storedNotes = [];
+			if(!err){
+				//If notes exists, we have to store them
+				storedNotes = data.notes;
+			}
+			storedNotes.push({sender: from, sentAt: now, text: message, deleted: false });
+			DAO.store(DAO.notes, receiver, { notes: storedNotes }, function(err){
+				if(err){
+					bot.say(to, 'Could not store the note. Please try again.');
+					return;
+				}
+				bot.say(to, responses[util.rnd(0, responses.length)]);
+			});
+		});
+	} else {
+		bot.say(to, 'Command usage: !note <alias> <message>.');
+		bot.say(to, 'Stores <message> for <alias>. When <alias> logs in, the note will be delivered.');
 	}
 }
 
@@ -68,18 +105,12 @@ function addAlias(to, msg){
 			}
 			var a = data.aliases;
 			a.push(alias);
-			DAO.del(DAO.USERS, user, function(err){
+			DAO.store(DAO.USERS, user, { aliases: a }, function(err){
 				if(err){
 					bot.say(to, 'Could not add alias to user.');
 					return;
 				}
-				DAO.store(DAO.USERS, user, { aliases: a }, function(err){
-					if(err){
-						bot.say(to, 'Could not add alias to user.');
-						return;
-					}
-					bot.say(to, 'Added alias '+alias+' to '+user+'.');
-				});
+				bot.say(to, 'Added alias '+alias+' to '+user+'.');
 			});
 		});
 	} else {
