@@ -9,7 +9,7 @@ var logger = new (winston.Logger)({
       new (winston.transports.File)({ filename: './botlog.log' })
     ]
 });
-var uptime = time.time();
+var uptime = moment();
 var config = {
 	botname: process.env.BOTNAME || 'abot2',
 	server: process.env.IRCSERVER || 'irc.quakenet.org',
@@ -120,7 +120,7 @@ function parseMessage(nick, to, text, message){
 function sendNote(to, from, msg){
 	var splitted = msg.split(' ');
 	if(splitted.length >= 2){
-		var now = time.time();
+		var now = moment();
 		var receiver = splitted.splice(0, 1)[0];
 		var message = splitted.join(' ');
 		//To make notes checking easier, we want to save the note to the base user, not the alias
