@@ -1,6 +1,7 @@
 var DAO = require('./DAO.js');
 var time = require('time');
 var util = require('./util.js');
+var moment = require('moment');
 var winston = require('winston');
 var logger = new (winston.Logger)({
     transports: [
@@ -72,7 +73,7 @@ function checkNotes(to, nick){
 						for(var i=0; i<retrievedNotes.length; i++){
 							var msg = retrievedNotes[i];
 							if(!msg.deleted){
-								bot.say(to, nick+': '+msg.sender+' left you a note '+timestamp(msg.sentAt)+' ago: '+msg.text);
+								bot.say(to, nick+': '+msg.sender+' left you a note '+moment(msg.sentAt).fromNow()+' ago: '+msg.text);
 								//Mark as deleted
 								retrievedNotes[i].deleted = true;
 							}
@@ -213,22 +214,5 @@ function tellBaseUsers(to){
 }
 
 function tellUptime(to){
-	bot.say(to, 'I\'ve been slaving away for you shitty humans for '+timestamp(uptime)+'.');
-}
-
-function timestamp(now) {
-	var end = time.time();
-	var difference = end - now;
-	var seconds = Math.round(difference % 60);
-	difference /= Math.round(60);
-	var minutes = Math.round(difference % 60);
-	difference /= Math.round(60);
-	var hours = Math.round(difference % 24);
-	difference /= Math.round(24);
-	var days = Math.floor(difference);
-
-	return (days === 0 ? '' : (days === 1 ? days + " day " : days + " days ")) +
-	(hours === 0 ? '' : (hours === 1 ? hours + " hour " : hours + " hours ")) +
-	(minutes === 0 ? '' : (minutes === 1 ? minutes + " minute " : minutes + " minutes ")) +
-	(seconds === 1 ? seconds + " second" : seconds + " seconds");
+	bot.say(to, 'I\'ve been slaving away for you shitty humans for '+moment(uptime).fromNow(true)+'.');
 }
