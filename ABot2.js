@@ -44,12 +44,6 @@ var stream = new Stream({
 //create stream
 stream.stream();
 
-//listen stream data
-stream.on('data', function(json) {
-  console.log(json);
-});
-
-
 bot.addListener('message', function(nick, to, text, message){
 	logger.info('['+to+'] '+nick+': '+text);
 	checkNotes(to, nick);
@@ -117,6 +111,15 @@ function parseMessage(nick, to, text, message){
 				sendNote(to, nick, msg);
 			} else if(cmd === 'alias'){
 				addAlias(to, msg);
+			} else if(cmd === 'twit'){
+				//listen stream data
+				stream.on('data', function(json) {
+					if(json.user.screen_name ==== 'Lngly_'){
+						console.log(json.text);
+					}
+				});
+			} else if(cmd === 'twitstop'){
+				stream.destroy();
 			}
 		} else if(operator === '?'){
 			if(cmd === 'uptime'){
