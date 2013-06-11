@@ -45,8 +45,6 @@ var fetchInterval = 2500;
 var fetchTimer = null;
 var cachedVine = null;
 var stream = twit.stream('user');
-var entered = false;
-//var connectEmitter = require('events').EventEmitter;
 
 //connectEmitter.once('IRCconnected', function(){
 	// stream.on('tweet', function (tweet) {
@@ -63,12 +61,10 @@ var entered = false;
 	// });
 //});
 
-bot.addListener('message', function(nick, to, text, message){
-	logger.info('['+to+'] '+nick+': '+text);
-	checkNotes(to, nick);
-	parseMessage(nick, to, util.trim(text.toLowerCase()), message);
-	stream.on('tweet', function (tweet) {
-		bot.say(to, 'New tweet.');
+bot.on('join', function(channel, nick, message){
+	if(nick === config.botname){
+		stream.on('tweet', function (tweet) {
+			bot.say(channel, 'New tweet.');
 		// if(tweet[0].entities.urls.length > 0){
 		// 	var url = tweet[0].entities.urls[0].expanded_url;
 		// 	if(url.indexOf('vine.co') !== -1){
@@ -78,7 +74,14 @@ bot.addListener('message', function(nick, to, text, message){
 		// 		}
 		// 	}
 		// }
-	});
+		});
+	}
+});
+
+bot.addListener('message', function(nick, to, text, message){
+	logger.info('['+to+'] '+nick+': '+text);
+	checkNotes(to, nick);
+	parseMessage(nick, to, util.trim(text.toLowerCase()), message);
 });
 
 function checkTweet(to){
