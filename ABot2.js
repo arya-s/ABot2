@@ -73,7 +73,7 @@ function checkNotes(to, nick){
 						for(var i=0; i<retrievedNotes.length; i++){
 							var msg = retrievedNotes[i];
 							if(!msg.deleted){
-								bot.say(to, nick+': '+msg.sender+' left you a note '+moment(msg.sentAt).fromNow()+' ago: '+msg.text);
+								bot.say(to, nick+': '+msg.sender+' left you a note '+moment(msg.sentAt).from(moment('Z'))+' ago: '+msg.text);
 								//Mark as deleted
 								retrievedNotes[i].deleted = true;
 							}
