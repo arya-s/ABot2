@@ -41,9 +41,6 @@ var stream = new Stream({
   access_token_secret: 'g5HEYTtkvkMd4YDfHwNftuXReHns63DcpD6gjDgIY'
 });
 
-//create stream
-stream.stream();
-
 bot.addListener('message', function(nick, to, text, message){
 	logger.info('['+to+'] '+nick+': '+text);
 	checkNotes(to, nick);
@@ -112,6 +109,8 @@ function parseMessage(nick, to, text, message){
 			} else if(cmd === 'alias'){
 				addAlias(to, msg);
 			} else if(cmd === 'twit'){
+				//create stream
+				stream.stream();
 				//listen stream data
 				stream.on('data', function(json) {
 					console.log(json.text);
