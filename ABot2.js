@@ -73,7 +73,7 @@ function checkNotes(to, nick){
 						for(var i=0; i<retrievedNotes.length; i++){
 							var msg = retrievedNotes[i];
 							if(!msg.deleted){
-								bot.say(to, nick+': '+msg.sender+' left you a note '+moment(msg.sentAt).from(moment('Z'))+' ago: '+msg.text);
+								bot.say(to, nick+': '+msg.sender+' left you a note '+moment(msg.sentAt).fromNow()+' ago: '+msg.text);
 								//Mark as deleted
 								retrievedNotes[i].deleted = true;
 							}
@@ -120,7 +120,7 @@ function parseMessage(nick, to, text, message){
 function sendNote(to, from, msg){
 	var splitted = msg.split(' ');
 	if(splitted.length >= 2){
-		var now = moment();
+		var now = Date.now();
 		var receiver = splitted.splice(0, 1)[0];
 		var message = splitted.join(' ');
 		//To make notes checking easier, we want to save the note to the base user, not the alias
