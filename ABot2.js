@@ -40,20 +40,45 @@ var bot = new irc.Client(
 		floodProtectionDelay: 1000
 	}
 );
-60000
+
 var fetchInterval = 2500;
 var fetchTimer = null;
 var cachedVine = null;
-var stream = twit.stream('user', { with: 'user'});
+var stream = twit.stream('user');
 var entered = false;
+//var connectEmitter = require('events').EventEmitter;
+
+//connectEmitter.once('IRCconnected', function(){
+	// stream.on('tweet', function (tweet) {
+	// 	bot.say()
+	// 	// if(tweet[0].entities.urls.length > 0){
+	// 	// 	var url = tweet[0].entities.urls[0].expanded_url;
+	// 	// 	if(url.indexOf('vine.co') !== -1){
+	// 	// 		if(cachedVine !== url){
+	// 	// 			bot.say(to, 'Arya uploaded a new video: '+url);
+	// 	// 			cachedVine = url;
+	// 	// 		}
+	// 	// 	}
+	// 	// }
+	// });
+//});
 
 bot.addListener('message', function(nick, to, text, message){
 	logger.info('['+to+'] '+nick+': '+text);
-	if(!entered){
-		checkTweet(to);
-	}
 	checkNotes(to, nick);
 	parseMessage(nick, to, util.trim(text.toLowerCase()), message);
+	stream.on('tweet', function (tweet) {
+		bot.say(to, 'New tweet.');
+		// if(tweet[0].entities.urls.length > 0){
+		// 	var url = tweet[0].entities.urls[0].expanded_url;
+		// 	if(url.indexOf('vine.co') !== -1){
+		// 		if(cachedVine !== url){
+		// 			bot.say(to, 'Arya uploaded a new video: '+url);
+		// 			cachedVine = url;
+		// 		}
+		// 	}
+		// }
+	});
 });
 
 function checkTweet(to){
@@ -79,19 +104,6 @@ function checkTweet(to){
 	// 		}
 	// 	});
 	// }, fetchInterval);
-	entered = true;
-	stream.on('tweet', function (tweet) {
-		console.log(tweet);
-		// if(tweet[0].entities.urls.length > 0){
-		// 	var url = tweet[0].entities.urls[0].expanded_url;
-		// 	if(url.indexOf('vine.co') !== -1){
-		// 		if(cachedVine !== url){
-		// 			bot.say(to, 'Arya uploaded a new video: '+url);
-		// 			cachedVine = url;
-		// 		}
-		// 	}
-		// }
-	});
 }
 
 function parseMessage(nick, to, text, message){
