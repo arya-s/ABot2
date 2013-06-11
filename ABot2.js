@@ -46,6 +46,7 @@ bot.addListener('message', function(nick, to, text, message){
 	checkNotes(to, nick);
 	parseMessage(nick, to, util.trim(text.toLowerCase()), message);
 });
+var timer = null;
 
 function parseMessage(nick, to, text, message){
 	var operator = text.charAt(0);
@@ -59,12 +60,16 @@ function parseMessage(nick, to, text, message){
 			} else if(cmd === 'alias'){
 				addAlias(to, msg);
 			} else if(cmd === 'twit'){
-				twit.get('statuses/user_timeline', { screen_name: 'Lngly_', count: 1, exclude_replies: true }, function(err, data){
-					var url = data[0].entities.urls[0].expanded_url;
-					if(url.indexOf('vine.co') !== -1){
-						bot.say(to, url);
-					}
-				});
+				timer = setInterval(function(){ 
+					twit.get('statuses/user_timeline', { screen_name: 'Lngly_', count: 1, exclude_replies: true }, function(err, data){
+						var url = data[0].entities.urls[0].expanded_url;
+						if(url.indexOf('vine.co') !== -1){
+							bot.say(to, url);
+						}
+					});
+				}, 5000);
+			} else if(cmd === 'twitstop'){
+				clearInterval(timer);
 			}
 		} else if(operator === '?'){
 			if(cmd === 'uptime'){
