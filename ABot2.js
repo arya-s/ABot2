@@ -56,18 +56,20 @@ function checkTweet(to){
 	fetchTimer = setInterval(function(){ 
 		twit.get('statuses/user_timeline', { screen_name: 'Lngly_', count: 1, exclude_replies: true }, function(err, data){
 			if(!err){
-				var url = data[0].entities.urls[0].expanded_url;
-				if(url.indexOf('vine.co') !== -1){
-					if(cachedVine !== url){
-						bot.say(to, 'Arya uploaded a new video: '+url);
-						cachedVine = url;
-						fetchInterval = 2500;
-						clearInterval(fetchTimer);
-						console.log('Found new vine, reseting fetch interval: '+fetchInterval);
-					} else {
-						fetchInterval = Math.min(fetchInterval+5000, 300000);
-						console.log('No new tweet, increasing fetch interval: '+fetchInterval);
-						clearInterval(fetchTimer);
+				if(data[0].entities.urls.length > 0){
+					var url = data[0].entities.urls[0].expanded_url;
+					if(url.indexOf('vine.co') !== -1){
+						if(cachedVine !== url){
+							bot.say(to, 'Arya uploaded a new video: '+url);
+							cachedVine = url;
+							fetchInterval = 2500;
+							clearInterval(fetchTimer);
+							console.log('Found new vine, reseting fetch interval: '+fetchInterval);
+						} else {
+							fetchInterval = Math.min(fetchInterval+5000, 300000);
+							console.log('No new tweet, increasing fetch interval: '+fetchInterval);
+							clearInterval(fetchTimer);
+						}
 					}
 				}
 			}
