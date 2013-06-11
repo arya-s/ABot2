@@ -46,34 +46,19 @@ var fetchTimer = null;
 var cachedVine = null;
 var stream = twit.stream('user');
 
-//connectEmitter.once('IRCconnected', function(){
-	// stream.on('tweet', function (tweet) {
-	// 	bot.say()
-	// 	// if(tweet[0].entities.urls.length > 0){
-	// 	// 	var url = tweet[0].entities.urls[0].expanded_url;
-	// 	// 	if(url.indexOf('vine.co') !== -1){
-	// 	// 		if(cachedVine !== url){
-	// 	// 			bot.say(to, 'Arya uploaded a new video: '+url);
-	// 	// 			cachedVine = url;
-	// 	// 		}
-	// 	// 	}
-	// 	// }
-	// });
-//});
-
 bot.on('join', function(channel, nick, message){
+	//Start listening to tweets only if the bot is connected.
 	if(nick === config.botname){
 		stream.on('tweet', function (tweet) {
-			bot.say(channel, 'New tweet.');
-		// if(tweet[0].entities.urls.length > 0){
-		// 	var url = tweet[0].entities.urls[0].expanded_url;
-		// 	if(url.indexOf('vine.co') !== -1){
-		// 		if(cachedVine !== url){
-		// 			bot.say(to, 'Arya uploaded a new video: '+url);
-		// 			cachedVine = url;
-		// 		}
-		// 	}
-		// }
+			if(tweet.entities.urls.length > 0){
+				var url = tweet.entities.urls[0].expanded_url;
+				if(url.indexOf('vine.co') !== -1){
+					if(cachedVine !== url){
+						bot.say(to, 'Arya uploaded a new video: '+url);
+						cachedVine = url;
+					}
+				}
+			}
 		});
 	}
 });
@@ -83,31 +68,6 @@ bot.addListener('message', function(nick, to, text, message){
 	checkNotes(to, nick);
 	parseMessage(nick, to, util.trim(text.toLowerCase()), message);
 });
-
-function checkTweet(to){
-	// fetchTimer = setInterval(function(){ 
-	// 	twit.get('statuses/user_timeline', { screen_name: 'Lngly_', count: 1, exclude_replies: true }, function(err, data){
-	// 		if(!err){
-	// 			if(data[0].entities.urls.length > 0){
-	// 				var url = data[0].entities.urls[0].expanded_url;
-	// 				if(url.indexOf('vine.co') !== -1){
-	// 					if(cachedVine !== url){
-	// 						bot.say(to, 'Arya uploaded a new video: '+url);
-	// 						cachedVine = url;
-	// 						fetchInterval = 2500;
-	// 						clearInterval(fetchTimer);
-	// 						console.log('Found new vine, reseting fetch interval: '+fetchInterval);
-	// 					} else {
-	// 						fetchInterval = Math.min(fetchInterval+5000, 300000);
-	// 						console.log('No new tweet, increasing fetch interval: '+fetchInterval);
-	// 						clearInterval(fetchTimer);
-	// 					}
-	// 				}
-	// 			}
-	// 		}
-	// 	});
-	// }, fetchInterval);
-}
 
 function parseMessage(nick, to, text, message){
 	var operator = text.charAt(0);
