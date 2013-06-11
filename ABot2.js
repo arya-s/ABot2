@@ -54,7 +54,7 @@ bot.on('join', function(channel, nick, message){
 				var url = tweet.entities.urls[0].expanded_url;
 				if(url.indexOf('vine.co') !== -1){
 					if(cachedVine !== url){
-						bot.say(to, 'Arya uploaded a new video: '+url);
+						bot.say(channel, 'Arya uploaded a new video: '+url);
 						cachedVine = url;
 					}
 				}
