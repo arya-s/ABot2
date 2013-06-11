@@ -81,15 +81,16 @@ function checkTweet(to){
 	// }, fetchInterval);
 	entered = true;
 	stream.on('tweet', function (tweet) {
-		if(tweet[0].entities.urls.length > 0){
-			var url = tweet[0].entities.urls[0].expanded_url;
-			if(url.indexOf('vine.co') !== -1){
-				if(cachedVine !== url){
-					bot.say(to, 'Arya uploaded a new video: '+url);
-					cachedVine = url;
-				}
-			}
-		}
+		console.log(tweet);
+		// if(tweet[0].entities.urls.length > 0){
+		// 	var url = tweet[0].entities.urls[0].expanded_url;
+		// 	if(url.indexOf('vine.co') !== -1){
+		// 		if(cachedVine !== url){
+		// 			bot.say(to, 'Arya uploaded a new video: '+url);
+		// 			cachedVine = url;
+		// 		}
+		// 	}
+		// }
 	});
 }
 
