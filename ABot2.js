@@ -33,12 +33,12 @@ var bot = new irc.Client(
 		floodProtectionDelay: 1000
 	}
 );
-var Stream = require('user-stream');
-var stream = new Stream({
-  consumer_key: '6MPbId7an3FhBibKY4YA',
-  consumer_secret: 'KqDvRxPRkLXRUil6dw2czC6ma1B0wmuyWiWyBzld4',
-  access_token_key: '264403317-rYISh0YYJnMmomSHHa2PyKdK83zAogNwVfc5QA08',
-  access_token_secret: 'g5HEYTtkvkMd4YDfHwNftuXReHns63DcpD6gjDgIY'
+var Twit = require('twit');
+var twit = new Twit({
+	consumer_key: '6MPbId7an3FhBibKY4YA',
+	consumer_secret: 'KqDvRxPRkLXRUil6dw2czC6ma1B0wmuyWiWyBzld4',
+	access_token: '264403317-rYISh0YYJnMmomSHHa2PyKdK83zAogNwVfc5QA08',
+	access_token_secret: 'g5HEYTtkvkMd4YDfHwNftuXReHns63DcpD6gjDgIY'
 });
 
 bot.addListener('message', function(nick, to, text, message){
@@ -46,6 +46,40 @@ bot.addListener('message', function(nick, to, text, message){
 	checkNotes(to, nick);
 	parseMessage(nick, to, util.trim(text.toLowerCase()), message);
 });
+
+function parseMessage(nick, to, text, message){
+	var operator = text.charAt(0);
+	if(operator === '!' || operator === '?'){
+		var splitted = text.split(' ');
+		var cmd = splitted.splice(0, 1)[0].substring(1);
+		var msg = splitted.join(' ');
+		if(operator === '!'){
+			if(cmd === 'note'){
+				sendNote(to, nick, msg);
+			} else if(cmd === 'alias'){
+				addAlias(to, msg);
+			} else if(cmd === 'twit'){
+				twit.get('statuses/user_timeline', { screen_name: 'Lngly_', count: 1, exclude_replies: true }, function(err, data){
+					var url = data[0].entities.urls[0].expanded_url;
+					if(url.indexOf('vine.co') !== -1){
+						bot.say(to, url);
+					}
+				});
+				screen_name=Lngly_&count=1&exclude_replies=t
+			}
+		} else if(operator === '?'){
+			if(cmd === 'uptime'){
+				tellUptime(to);
+			} else if(cmd === 'users'){
+				tellBaseUsers(to);
+			} else if(cmd === 'alias'){
+				tellAlias(to, msg);
+			} else if(cmd === 'notes'){
+				tellNotes(to);
+			}
+		}
+	}
+}
 
 function checkNotes(to, nick){
 	//4) Deliver the notes
@@ -95,41 +129,6 @@ function checkNotes(to, nick){
 			});
 		}
 	});
-}
-
-function parseMessage(nick, to, text, message){
-	var operator = text.charAt(0);
-	if(operator === '!' || operator === '?'){
-		var splitted = text.split(' ');
-		var cmd = splitted.splice(0, 1)[0].substring(1);
-		var msg = splitted.join(' ');
-		if(operator === '!'){
-			if(cmd === 'note'){
-				sendNote(to, nick, msg);
-			} else if(cmd === 'alias'){
-				addAlias(to, msg);
-			} else if(cmd === 'twit'){
-				//create stream
-				stream.stream();
-				//listen stream data
-				stream.on('data', function(json) {
-					console.log(json);
-				});
-			} else if(cmd === 'twitstop'){
-				stream.destroy();
-			}
-		} else if(operator === '?'){
-			if(cmd === 'uptime'){
-				tellUptime(to);
-			} else if(cmd === 'users'){
-				tellBaseUsers(to);
-			} else if(cmd === 'alias'){
-				tellAlias(to, msg);
-			} else if(cmd === 'notes'){
-				tellNotes(to);
-			}
-		}
-	}
 }
 
 function sendNote(to, from, msg){
