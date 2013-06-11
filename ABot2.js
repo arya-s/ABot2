@@ -114,9 +114,7 @@ function parseMessage(nick, to, text, message){
 			} else if(cmd === 'twit'){
 				//listen stream data
 				stream.on('data', function(json) {
-					if(json.user.screen_name === 'Lngly_'){
-						console.log(json.text);
-					}
+					console.log(json.text);
 				});
 			} else if(cmd === 'twitstop'){
 				stream.destroy();
