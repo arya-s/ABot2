@@ -113,7 +113,7 @@ function parseMessage(nick, to, text, message){
 				stream.stream();
 				//listen stream data
 				stream.on('data', function(json) {
-					console.log(json.text);
+					console.log(json);
 				});
 			} else if(cmd === 'twitstop'){
 				stream.destroy();
