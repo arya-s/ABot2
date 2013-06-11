@@ -8,6 +8,13 @@ var logger = new (winston.Logger)({
       new (winston.transports.File)({ filename: './botlog.log' })
     ]
 });
+var Twit = require('twit');
+var twit = new Twit({
+	consumer_key: process.env.TWIT_CONSUMER_KEY,
+	consumer_secret: process.env.TWIT_CONSUMER_SECRET,
+	access_token: process.env.TWIT_ACCESS_TOKEN,
+	access_token_secret: process.env.TWIT_ACCESS_TOKEN
+});
 var uptime = moment();
 var config = {
 	botname: process.env.BOTNAME || 'abot2',
@@ -33,20 +40,38 @@ var bot = new irc.Client(
 		floodProtectionDelay: 1000
 	}
 );
-var Twit = require('twit');
-var twit = new Twit({
-	consumer_key: '6MPbId7an3FhBibKY4YA',
-	consumer_secret: 'KqDvRxPRkLXRUil6dw2czC6ma1B0wmuyWiWyBzld4',
-	access_token: '264403317-rYISh0YYJnMmomSHHa2PyKdK83zAogNwVfc5QA08',
-	access_token_secret: 'g5HEYTtkvkMd4YDfHwNftuXReHns63DcpD6gjDgIY'
-});
+60000
+var fetchInterval = 2500;
+var fetchTimer = null;
+var cachedVine = null;
 
 bot.addListener('message', function(nick, to, text, message){
 	logger.info('['+to+'] '+nick+': '+text);
+	checkTweet(to);
 	checkNotes(to, nick);
 	parseMessage(nick, to, util.trim(text.toLowerCase()), message);
 });
-var timer = null;
+
+function checkTweet(to){
+	fetchTimer = setInterval(function(){ 
+		twit.get('statuses/user_timeline', { screen_name: 'Lngly_', count: 1, exclude_replies: true }, function(err, data){
+			if(!err){
+				var url = data[0].entities.urls[0].expanded_url;
+				if(url.indexOf('vine.co') !== -1){
+					if(cachedVine !== url){
+						bot.say(to, 'Arya uploaded a new video: '+url);
+						cachedVine = url;
+						fetchInterval = 2500;
+						console.log('Found new vine, reseting fetch interval: '+fetchInterval);
+					} else {
+						fetchInterval = Math.min(fetchInterval+5000, 300000);
+						console.log('No new tweet, increasing fetch interval: '+fetchInterval);
+					}
+				}
+			}
+		});
+	}, fetchInterval);
+}
 
 function parseMessage(nick, to, text, message){
 	var operator = text.charAt(0);
@@ -59,17 +84,6 @@ function parseMessage(nick, to, text, message){
 				sendNote(to, nick, msg);
 			} else if(cmd === 'alias'){
 				addAlias(to, msg);
-			} else if(cmd === 'twit'){
-				timer = setInterval(function(){ 
-					twit.get('statuses/user_timeline', { screen_name: 'Lngly_', count: 1, exclude_replies: true }, function(err, data){
-						var url = data[0].entities.urls[0].expanded_url;
-						if(url.indexOf('vine.co') !== -1){
-							bot.say(to, url);
-						}
-					});
-				}, 5000);
-			} else if(cmd === 'twitstop'){
-				clearInterval(timer);
 			}
 		} else if(operator === '?'){
 			if(cmd === 'uptime'){
