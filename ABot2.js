@@ -1,5 +1,4 @@
 var DAO = require('./DAO.js');
-var time = require('time');
 var util = require('./util.js');
 var moment = require('moment');
 var winston = require('winston');
@@ -34,6 +33,22 @@ var bot = new irc.Client(
 		floodProtectionDelay: 1000
 	}
 );
+var Stream = require('user-stream');
+var stream = new Stream({
+  consumer_key: '6MPbId7an3FhBibKY4YA',
+  consumer_secret: 'KqDvRxPRkLXRUil6dw2czC6ma1B0wmuyWiWyBzld4',
+  access_token_key: '264403317-rYISh0YYJnMmomSHHa2PyKdK83zAogNwVfc5QA08',
+  access_token_secret: 'g5HEYTtkvkMd4YDfHwNftuXReHns63DcpD6gjDgIY'
+});
+
+//create stream
+stream.stream();
+
+//listen stream data
+stream.on('data', function(json) {
+  console.log(json);
+});
+
 
 bot.addListener('message', function(nick, to, text, message){
 	logger.info('['+to+'] '+nick+': '+text);
