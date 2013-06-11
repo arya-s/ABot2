@@ -62,10 +62,12 @@ function checkTweet(to){
 						bot.say(to, 'Arya uploaded a new video: '+url);
 						cachedVine = url;
 						fetchInterval = 2500;
+						clearInterval(fetchTimer);
 						console.log('Found new vine, reseting fetch interval: '+fetchInterval);
 					} else {
 						fetchInterval = Math.min(fetchInterval+5000, 300000);
 						console.log('No new tweet, increasing fetch interval: '+fetchInterval);
+						clearInterval(fetchTimer);
 					}
 				}
 			}
