@@ -65,7 +65,6 @@ function parseMessage(nick, to, text, message){
 						bot.say(to, url);
 					}
 				});
-				screen_name=Lngly_&count=1&exclude_replies=t
 			}
 		} else if(operator === '?'){
 			if(cmd === 'uptime'){
