@@ -88,8 +88,6 @@ function parseMessage(nick, to, text, message){
 				tellBaseUsers(to);
 			} else if(cmd === 'alias'){
 				tellAlias(to, msg);
-			} else if(cmd === 'notes'){
-				tellNotes(to);
 			}
 		}
 	}
