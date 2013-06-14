@@ -41,14 +41,7 @@ var bot = new irc.Client(
 	}
 );
 
-var fetchInterval = 2500;
-var fetchTimer = null;
-var cachedVine = null;
 var stream = twit.stream('user', { 'with' : 'user' });
-
-DAO.getAll(DAO.NOTES, function(data){
-	console.log(data);
-});
 
 bot.on('join', function(channel, nick, message){
 	//Start listening to tweets only if the bot is connected.

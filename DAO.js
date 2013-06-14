@@ -6,6 +6,7 @@ exports.USERS = 0x0003;
 exports.LINKS = 0x0004;
 exports.LOG = 0x0005;
 exports.HELP = 0x0006;
+exports.TWIT = 0x0007;
 exports.TEST2 = 0xFFFE
 exports.TEST = 0xFFFF;
 var winston = require('winston');
