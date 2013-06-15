@@ -42,146 +42,126 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
     	}
     });
 
-    USERS.find().toArray(function(err, data){
-    	if(!err){
-    		console.log("Users:");
-    		console.log(data);
-    	}
-    });
-	// responses.insert(
-	// 	{ all: [
-	// 			"Okay, okay. I got your note, relax.",
-	// 			"I'll deliver your note. If I feel like it.",
-	// 			"Note accepted.",
-	// 			"Yea yea, shut up already.",
-	// 			"Do you really think your note is so important?"
-	// 			]
-	// 	}, {safe: true}, function(err, objects){
-	// 		if(err){
-	// 			logger.error(err);
-	// 		} else {
-	// 			console.log(responses.find());
-	// 		}
-	// });
-	// var irc = require('irc');
-	// var responses = [];
+	var irc = require('irc');
+	var responses = [];
 
+	var bot = new irc.Client(
+		config.server,
+		config.botname,
+		{
+			channels: config.channels,
+			debug: true,
+			floodProtection: true,
+			floodProtectionDelay: 1000
+		}
+	);
+	var stream = twit.stream('user', { 'with' : 'user' });
 
-	// DAO.getAll(DAO.RESPONSES, function(data){
-	// 	for(var i=0; i<data.length; i++){
-	// 		if(i%2 === 1){
-	// 			responses.push(data[i].text);
-	// 		}
-	// 	}
-	// });
-	// var bot = new irc.Client(
-	// 	config.server,
-	// 	config.botname,
-	// 	{
-	// 		channels: config.channels,
-	// 		debug: true,
-	// 		floodProtection: true,
-	// 		floodProtectionDelay: 1000
-	// 	}
-	// );
-	// var stream = twit.stream('user', { 'with' : 'user' });
+	bot.on('join', function(channel, nick, message){
+		//Start listening to tweets only if the bot is connected.
+		if(nick === config.botname){
+			stream.on('tweet', function (tweet) {
+				if(tweet.entities.urls.length > 0){
+					var url = tweet.entities.urls[0].expanded_url;
+					if(url.indexOf('vine.co') !== -1){
+						if(cachedVine !== url){
+							bot.say(channel, 'Arya uploaded a new video: '+url);
+							cachedVine = url;
+						}
+					}
+				}
+			});
+		}
+	});
 
-	// bot.on('join', function(channel, nick, message){
-	// 	//Start listening to tweets only if the bot is connected.
-	// 	if(nick === config.botname){
-	// 		stream.on('tweet', function (tweet) {
-	// 			if(tweet.entities.urls.length > 0){
-	// 				var url = tweet.entities.urls[0].expanded_url;
-	// 				if(url.indexOf('vine.co') !== -1){
-	// 					if(cachedVine !== url){
-	// 						bot.say(channel, 'Arya uploaded a new video: '+url);
-	// 						cachedVine = url;
-	// 					}
-	// 				}
-	// 			}
-	// 		});
-	// 	}
-	// });
+	bot.addListener('message', function(nick, to, text, message){
+		logger.info('['+to+'] '+nick+': '+text);
+		checkNotes(to, nick);
+		//parseMessage(nick, to, util.trim(text.toLowerCase()), message);
+	});
 
-	// bot.addListener('message', function(nick, to, text, message){
-	// 	logger.info('['+to+'] '+nick+': '+text);
-	// 	checkNotes(to, nick);
-	// 	parseMessage(nick, to, util.trim(text.toLowerCase()), message);
-	// });
+	function parseMessage(nick, to, text, message){
+		var operator = text.charAt(0);
+		if(operator === '!' || operator === '?'){
+			var splitted = text.split(' ');
+			var cmd = splitted.splice(0, 1)[0].substring(1);
+			var msg = splitted.join(' ');
+			if(operator === '!'){
+				if(cmd === 'note'){
+					sendNote(to, nick, msg);
+				} else if(cmd === 'alias'){
+					addAlias(to, msg);
+				}
+			} else if(operator === '?'){
+				if(cmd === 'uptime'){
+					tellUptime(to);
+				} else if(cmd === 'users'){
+					tellBaseUsers(to);
+				} else if(cmd === 'alias'){
+					tellAlias(to, msg);
+				}
+			}
+		}
+	}
 
-	// function parseMessage(nick, to, text, message){
-	// 	var operator = text.charAt(0);
-	// 	if(operator === '!' || operator === '?'){
-	// 		var splitted = text.split(' ');
-	// 		var cmd = splitted.splice(0, 1)[0].substring(1);
-	// 		var msg = splitted.join(' ');
-	// 		if(operator === '!'){
-	// 			if(cmd === 'note'){
-	// 				sendNote(to, nick, msg);
-	// 			} else if(cmd === 'alias'){
-	// 				addAlias(to, msg);
-	// 			}
-	// 		} else if(operator === '?'){
-	// 			if(cmd === 'uptime'){
-	// 				tellUptime(to);
-	// 			} else if(cmd === 'users'){
-	// 				tellBaseUsers(to);
-	// 			} else if(cmd === 'alias'){
-	// 				tellAlias(to, msg);
-	// 			}
-	// 		}
-	// 	}
-	// }
+	function checkNotes(to, nick){
+		var alias = util.trim(nick.toLowerCase());
+		//1)Find the user to this alias
+		//2)Look up notes for this user
+		//3)Delete the note
+		USERS.find({aliases: {'$in': [alias]}}, function(err, data){
+			if(!err){
+				console.log('Checking notes for alias: '+alias);
+				console.log('User found to this alias:');
+				console.log(data);
+			}
+		});
 
-	// function checkNotes(to, nick){
-	// 	//4) Deliver the notes
-	// 	//5) Mark them as read and restore.
-	// 	var alias = util.trim(nick.toLowerCase());
-	// 	DAO.getAll(DAO.USERS, function(data){
-	// 		//Find out the user to this alias
-	// 		var user = '';
-	// 		for(var i=0; i<data.length; i++){
-	// 			if(i%2 === 1){
-	// 				if(data[i].aliases.indexOf(alias) !== -1){
-	// 					//Found the alias in this user's aliases -> save the user
-	// 						user = data[i-1].key;
-	// 					break;
-	// 				}
-	// 			}
-	// 		}
-	// 		//Check all undeleted notes, then delete them
-	// 		if(user.length > 0){
-	// 			DAO.get(DAO.NOTES, user, function(err, data){
-	// 				if(!err){
-	// 					var retrievedNotes = data.notes;
-	// 					if(retrievedNotes.length > 0){
-	// 						//Sort the messages from oldest to newest
-	// 						//@see: http://stackoverflow.com/questions/10123953/sort-javascript-object-array-by-date
-	// 						retrievedNotes.sort(function(a,b){
-	// 							a = a.sentAt;
-	// 							b = b.sentAt;
-	// 							return a<b?-1:a>b?1:0;
-	// 						});
-	// 						for(var i=0; i<retrievedNotes.length; i++){
-	// 							var msg = retrievedNotes[i];
-	// 							if(!msg.deleted){
-	// 								bot.say(to, nick+': '+msg.sender+' left you a note '+moment(msg.sentAt).fromNow()+' ago: '+msg.text);
-	// 								//Mark as deleted
-	// 								retrievedNotes[i].deleted = true;
-	// 							}
-	// 						}
-	// 						//Restore
-	// 						DAO.store(DAO.NOTES, user, { notes: retrievedNotes }, function(err){
-	// 							if(err){
-	// 								logger.error('Could not restore notes.');
-	// 							}
-	// 						});
-	// 					}
-	// 				}
-	// 			});
-	// 		}
-	// 	});
-	// }
+		// DAO.getAll(DAO.USERS, function(data){
+		// 	//Find out the user to this alias
+		// 	var user = '';
+		// 	for(var i=0; i<data.length; i++){
+		// 		if(i%2 === 1){
+		// 			if(data[i].aliases.indexOf(alias) !== -1){
+		// 				//Found the alias in this user's aliases -> save the user
+		// 					user = data[i-1].key;
+		// 				break;
+		// 			}
+		// 		}
+		// 	}
+		// 	//Check all undeleted notes, then delete them
+		// 	if(user.length > 0){
+		// 		DAO.get(DAO.NOTES, user, function(err, data){
+		// 			if(!err){
+		// 				var retrievedNotes = data.notes;
+		// 				if(retrievedNotes.length > 0){
+		// 					//Sort the messages from oldest to newest
+		// 					//@see: http://stackoverflow.com/questions/10123953/sort-javascript-object-array-by-date
+		// 					retrievedNotes.sort(function(a,b){
+		// 						a = a.sentAt;
+		// 						b = b.sentAt;
+		// 						return a<b?-1:a>b?1:0;
+		// 					});
+		// 					for(var i=0; i<retrievedNotes.length; i++){
+		// 						var msg = retrievedNotes[i];
+		// 						if(!msg.deleted){
+		// 							bot.say(to, nick+': '+msg.sender+' left you a note '+moment(msg.sentAt).fromNow()+' ago: '+msg.text);
+		// 							//Mark as deleted
+		// 							retrievedNotes[i].deleted = true;
+		// 						}
+		// 					}
+		// 					//Restore
+		// 					DAO.store(DAO.NOTES, user, { notes: retrievedNotes }, function(err){
+		// 						if(err){
+		// 							logger.error('Could not restore notes.');
+		// 						}
+		// 					});
+		// 				}
+		// 			}
+		// 		});
+		// 	}
+		// });
+	}
 
 	// function sendNote(to, from, msg){
 	// 	var splitted = msg.split(' ');
