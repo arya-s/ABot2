@@ -113,7 +113,9 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 				var usr = data[0].name;
 				NOTES.find({ user: usr}).toArray(function(err, data){
 					var notes = data[0].notes;
-					console.log(notes);
+					notes.forEach(function(note){
+						bot.say(to, nick+': '+note.sender+' left you a note '+moment(note.sentAt).fromNow()+' ago: '+note.text);
+					});
 				});
 			}
 		});
