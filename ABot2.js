@@ -35,21 +35,27 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 	var users = new mongodb.Collection(db, 'users');
 	var notes = new mongodb.Collection(db, 'notes');
 
-	responses.insert(
-		{ all: [
-				"Okay, okay. I got your note, relax.",
-				"I'll deliver your note. If I feel like it.",
-				"Note accepted.",
-				"Yea yea, shut up already.",
-				"Do you really think your note is so important?"
-				]
-		}, {safe: true}, function(err, objects){
-			if(err){
-				logger.error(err);
-			} else {
-				console.log(responses.find());
-			}
-	});
+    var allResponses = responses.find();
+    allResponses.toArray(function(err, response){
+    	if(!err){
+    		console.log('Response: ',response);
+    	}
+    });
+	// responses.insert(
+	// 	{ all: [
+	// 			"Okay, okay. I got your note, relax.",
+	// 			"I'll deliver your note. If I feel like it.",
+	// 			"Note accepted.",
+	// 			"Yea yea, shut up already.",
+	// 			"Do you really think your note is so important?"
+	// 			]
+	// 	}, {safe: true}, function(err, objects){
+	// 		if(err){
+	// 			logger.error(err);
+	// 		} else {
+	// 			console.log(responses.find());
+	// 		}
+	// });
 	// var irc = require('irc');
 	// var responses = [];
 
