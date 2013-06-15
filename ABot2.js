@@ -109,7 +109,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		//1)Find the user to this alias
 		//2)Look up notes for this user
 		//3)Delete the note
-		USERS.find({aliases: {'$in': [alias]}}, function(err, data){
+		USERS.find({aliases: {'$in': [alias]}}).toArray(function(err, data){
 			if(!err){
 				console.log('Checking notes for alias: '+alias);
 				console.log('User found to this alias:');
