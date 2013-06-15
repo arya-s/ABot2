@@ -138,7 +138,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 			USERS.find({ aliases: { '$in': [receiver] } }).toArray(function(err, data){
 				if(!err){
 					var usr = data[0].name;
-					NOTES.update({ user: usr }, { '$push': { notes: { sender: from, sentAt: now, text: message } } });
+					NOTES.update({ user: usr }, { '$push': { notes: { sender: from, sentAt: now, text: message } } }, { w:0 });
 					bot.say(to, responses[util.rnd(0, responses.length)]);
 				} else {
 					logger.error('Could not save note because base user does not exist or an error occured.',err);
