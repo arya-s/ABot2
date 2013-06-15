@@ -135,7 +135,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 			var receiver = splitted.splice(0, 1)[0];
 			var message = splitted.join(' ');
 			//Find the base user to the receiver alias because notes are stored per base user
-			USERS.find({ aliases: { '$in': [alias] } }).toArray(function(err, data){
+			USERS.find({ aliases: { '$in': [receiver] } }).toArray(function(err, data){
 				if(!err){
 					var usr = data[0].name;
 					NOTES.update({ user: usr }, { '$push': { notes: { sender: from, sentAt: now, text: message } } });
