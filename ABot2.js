@@ -118,10 +118,8 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 							bot.say(to, nick+': '+note.sender+' left you a note '+moment(note.sentAt).fromNow()+' ago: '+note.text);
 						});
 						if(notes.length > 0){
-							//Reset his note status
-							USERS.update({ user: usr }, { '$set': { 'notes': [] } }, function(err){
-								console.log(err);
-							});
+							//Reset user's note status
+							NOTES.update({ user: usr }, { '$set': { notes: [] } }, { w:0 });
 						}
 					} else {
 						logger.error('Could not retrieve notes. ', err);
