@@ -38,7 +38,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
     var allResponses = responses.find();
     allResponses.toArray(function(err, response){
     	if(!err){
-    		console.log('Response: ',response);
+    		console.log('Response: ',response.all);
     	}
     });
 	// responses.insert(
