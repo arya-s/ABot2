@@ -41,6 +41,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
     		responses = data;
     	}
     });
+    console.log(responses);
 	// responses.insert(
 	// 	{ all: [
 	// 			"Okay, okay. I got your note, relax.",
