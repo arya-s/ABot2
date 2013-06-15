@@ -31,14 +31,14 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		channels: ((process.env.DEBUG || false) == true) ? '#babodebug' : (process.env.CHANNELS || '#babodebug').split(';')
 	};
 	//Set up all the collections
-	var responses = new mongodb.Collection(db, 'responses');
-	var users = new mongodb.Collection(db, 'users');
-	var notes = new mongodb.Collection(db, 'notes');
+	var RESPONSES = new mongodb.Collection(db, 'responses');
+	var USERS = new mongodb.Collection(db, 'users');
+	var NOTES = new mongodb.Collection(db, 'notes');
 
-    var allResponses = responses.find();
-    allResponses.toArray(function(err, response){
+    var responses = [];
+    RESPONSES.find().toArray(function(err, data){
     	if(!err){
-    		console.log('Response: ',response[0].all);
+    		responses = data;
     	}
     });
 	// responses.insert(
