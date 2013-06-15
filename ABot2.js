@@ -106,22 +106,24 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		//Find the baseuser to this alias
 		USERS.find({ aliases: { '$in': [alias] } }).toArray(function(err, data){
 			if(!err){
-				var usr = data[0].name;
-				//List all available notes
-				NOTES.find({ user: usr }).toArray(function(err, data){
-					if(!err){
-						var notes = data[0].notes;
-						notes.forEach(function(note){
-							bot.say(to, nick+': '+note.sender+' left you a note '+moment(note.sentAt).fromNow()+' ago: '+note.text);
-						});
-						if(notes.length > 0){
-							//Reset user's note status
-							NOTES.update({ user: usr }, { '$set': { notes: [] } }, { w:0 });
+				if(data.length > 0){
+					var usr = data[0].name;
+					//List all available notes
+					NOTES.find({ user: usr }).toArray(function(err, data){
+						if(!err){
+							var notes = data[0].notes;
+							notes.forEach(function(note){
+								bot.say(to, nick+': '+note.sender+' left you a note '+moment(note.sentAt).fromNow()+' ago: '+note.text);
+							});
+							if(notes.length > 0){
+								//Reset user's note status
+								NOTES.update({ user: usr }, { '$set': { notes: [] } }, { w:0 });
+							}
+						} else {
+							logger.error('Could not retrieve notes. ', err);
 						}
-					} else {
-						logger.error('Could not retrieve notes. ', err);
-					}
-				});
+					});
+				}
 			} else {
 				logger.error('Could not retrieve user. ',err);
 			}
@@ -137,13 +139,15 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 			//Find the base user to the receiver alias because notes are stored per base user
 			USERS.find({ aliases: { '$in': [receiver] } }).toArray(function(err, data){
 				if(!err){
-					var usr = data[0].name;
-					NOTES.update({ user: usr }, { '$push': { notes: { sender: from, sentAt: now, text: message } } }, { w:0 });
-					bot.say(to, responses[util.rnd(0, responses.length)]);
-				} else {
-					logger.error('Could not save note because base user does not exist or an error occured.',err);
-					bot.say(to, 'I didn\'t send your shitty note.');
-					bot.say(to, 'Maybe the alias does not exist for any base user. Use ?user and ?alias <baseuser> to check.');
+					if(data.length > 0){
+						var usr = data[0].name;
+						NOTES.update({ user: usr }, { '$push': { notes: { sender: from, sentAt: now, text: message } } }, { w:0 });
+						bot.say(to, responses[util.rnd(0, responses.length)]);
+					} else {
+						logger.error('Could not save note because base user does not exist or an error occured.',err);
+						bot.say(to, 'I didn\'t send your shitty note.');
+						bot.say(to, 'Maybe the alias does not exist for any base user. Use ?user and ?alias <baseuser> to check.');
+					}
 				}
 			});
 		} else {
