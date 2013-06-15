@@ -77,7 +77,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 	bot.addListener('message', function(nick, to, text, message){
 		logger.info('['+to+'] '+nick+': '+text);
 		checkNotes(to, nick);
-		//parseMessage(nick, to, util.trim(text.toLowerCase()), message);
+		parseMessage(nick, to, util.trim(text.toLowerCase()), message);
 	});
 
 	function parseMessage(nick, to, text, message){
@@ -90,15 +90,15 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 				if(cmd === 'note'){
 					sendNote(to, nick, msg);
 				} else if(cmd === 'alias'){
-					addAlias(to, msg);
+					//addAlias(to, msg);
 				}
 			} else if(operator === '?'){
 				if(cmd === 'uptime'){
 					tellUptime(to);
 				} else if(cmd === 'users'){
-					tellBaseUsers(to);
+					//tellBaseUsers(to);
 				} else if(cmd === 'alias'){
-					tellAlias(to, msg);
+					//tellAlias(to, msg);
 				}
 			}
 		}
@@ -129,6 +129,30 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 				logger.error('Could not retrieve user. ',err);
 			}
 		});
+	}
+
+	function sendNote(to, from, msg){
+		var splitted = msg.split(' ');
+		if(splitted.length >= 2){
+			var now = Date.now();
+			var receiver = splitted.splice(0, 1)[0];
+			var message = splitted.join(' ');
+			//Find the base user to the receiver alias because notes are stored per base user
+			USERS.find({ aliases: { '$in': [alias] } }).toArray(function(err, data){
+				if(!err){
+					var usr = data[0].name;
+					NOTES.update({ user: usr }, { '$push': { notes: { sender: from, sentAt: now, text: message } } });
+					bot.say(to, responses[util.rnd(0, responses.length)]);
+				} else {
+					logger.error('Could not save note because base user does not exist or an error occured.',err);
+					bot.say(to, 'I didn\'t send your shitty note.');
+					bot.say(to, 'Maybe the alias does not exist for any base user. Use ?user and ?alias <baseuser> to check.');
+				}
+			});
+		} else {
+			bot.say(to, 'Command usage: !note <alias> <message>.');
+			bot.say(to, 'Stores <message> for <alias>. When <alias> logs in, the note will be delivered.');
+		}
 	}
 
 	// function sendNote(to, from, msg){
