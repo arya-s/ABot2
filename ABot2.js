@@ -30,15 +30,25 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		server: process.env.IRCSERVER || 'irc.quakenet.org',
 		channels: ((process.env.DEBUG || false) == true) ? '#babodebug' : (process.env.CHANNELS || '#babodebug').split(';')
 	};
+	//Set up all the collections
+	var responses = new mongodb.Collection(db, 'responses');
+	var users = new mongodb.Collection(db, 'users');
+	var notes = new mongodb.Collection(db, 'notes');
 
-	db.responses.save({
-		all: [
+	responses.insert(
+		{ all: [
 				"Okay, okay. I got your note, relax.",
 				"I'll deliver your note. If I feel like it.",
 				"Note accepted.",
 				"Yea yea, shut up already.",
 				"Do you really think your note is so important?"
 				]
+		}, {safe: true}, function(err, objects){
+			if(err){
+				logger.error(err);
+			} else {
+				console.log(responses.find());
+			}
 	});
 	// var irc = require('irc');
 	// var responses = [];
