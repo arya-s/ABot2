@@ -64,10 +64,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 				if(tweet.entities.urls.length > 0){
 					var url = tweet.entities.urls[0].expanded_url;
 					if(url.indexOf('vine.co') !== -1){
-						if(cachedVine !== url){
-							bot.say(channel, 'Arya uploaded a new video: '+url);
-							cachedVine = url;
-						}
+						bot.say(channel, 'Arya uploaded a new video: '+url);
 					}
 				}
 			});
