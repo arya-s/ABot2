@@ -111,13 +111,15 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 					//List all available notes
 					NOTES.find({ user: usr }).toArray(function(err, data){
 						if(!err){
-							var notes = data[0].notes;
-							notes.forEach(function(note){
-								bot.say(to, nick+': '+note.sender+' left you a note '+moment(note.sentAt).fromNow()+' ago: '+note.text);
-							});
-							if(notes.length > 0){
-								//Reset user's note status
-								NOTES.update({ user: usr }, { '$set': { notes: [] } }, { w:0 });
+							if(data.length > 0){
+								var notes = data[0].notes;
+								notes.forEach(function(note){
+									bot.say(to, nick+': '+note.sender+' left you a note '+moment(note.sentAt).fromNow()+' ago: '+note.text);
+								});
+								if(notes.length > 0){
+									//Reset user's note status
+									NOTES.update({ user: usr }, { '$set': { notes: [] } }, { w:0 });
+								}
 							}
 						} else {
 							logger.error('Could not retrieve notes. ', err);
@@ -141,6 +143,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 				if(!err){
 					if(data.length > 0){
 						var usr = data[0].name;
+						//Need to make sure user exists in NOTES table otherwise no update will happen.
 						NOTES.update({ user: usr }, { '$push': { notes: { sender: from, sentAt: now, text: message } } }, { w:0 });
 						bot.say(to, responses[util.rnd(0, responses.length)]);
 					} else {
