@@ -119,7 +119,9 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 						});
 						if(notes.length > 0){
 							//Reset his note status
-							USERS.update({ user: usr }, { '$set': { 'notes': [] } }, { w: 0 });
+							USERS.update({ user: usr }, { '$set': { 'notes': [] } }, function(err){
+								console.log(err);
+							});
 						}
 					} else {
 						logger.error('Could not retrieve notes. ', err);
