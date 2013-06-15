@@ -106,64 +106,29 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 
 	function checkNotes(to, nick){
 		var alias = util.trim(nick.toLowerCase());
-		//2)Look up notes for this user
-		//3)Delete the note
-		USERS.find({aliases: {'$in': [alias]}}).toArray(function(err, data){
+		//Find the baseuser to this alias
+		USERS.find({ aliases: { '$in': [alias] } }).toArray(function(err, data){
 			if(!err){
 				var usr = data[0].name;
-				NOTES.find({ user: usr}).toArray(function(err, data){
-					var notes = data[0].notes;
-					notes.forEach(function(note){
-						bot.say(to, nick+': '+note.sender+' left you a note '+moment(note.sentAt).fromNow()+' ago: '+note.text);
-					});
+				//List all available notes
+				NOTES.find({ user: usr }).toArray(function(err, data){
+					if(!err){
+						var notes = data[0].notes;
+						notes.forEach(function(note){
+							bot.say(to, nick+': '+note.sender+' left you a note '+moment(note.sentAt).fromNow()+' ago: '+note.text);
+						});
+						if(notes.length > 0){
+							//Reset his note status
+							USERS.update({ user: usr }, { '$set': { 'notes': [] } });
+						}
+					} else {
+						logger.error('Could not retrieve notes. ', err);
+					}
 				});
+			} else {
+				logger.error('Could not retrieve user. ',err);
 			}
 		});
-
-		// DAO.getAll(DAO.USERS, function(data){
-		// 	//Find out the user to this alias
-		// 	var user = '';
-		// 	for(var i=0; i<data.length; i++){
-		// 		if(i%2 === 1){
-		// 			if(data[i].aliases.indexOf(alias) !== -1){
-		// 				//Found the alias in this user's aliases -> save the user
-		// 					user = data[i-1].key;
-		// 				break;
-		// 			}
-		// 		}
-		// 	}
-		// 	//Check all undeleted notes, then delete them
-		// 	if(user.length > 0){
-		// 		DAO.get(DAO.NOTES, user, function(err, data){
-		// 			if(!err){
-		// 				var retrievedNotes = data.notes;
-		// 				if(retrievedNotes.length > 0){
-		// 					//Sort the messages from oldest to newest
-		// 					//@see: http://stackoverflow.com/questions/10123953/sort-javascript-object-array-by-date
-		// 					retrievedNotes.sort(function(a,b){
-		// 						a = a.sentAt;
-		// 						b = b.sentAt;
-		// 						return a<b?-1:a>b?1:0;
-		// 					});
-		// 					for(var i=0; i<retrievedNotes.length; i++){
-		// 						var msg = retrievedNotes[i];
-		// 						if(!msg.deleted){
-		// 							bot.say(to, nick+': '+msg.sender+' left you a note '+moment(msg.sentAt).fromNow()+' ago: '+msg.text);
-		// 							//Mark as deleted
-		// 							retrievedNotes[i].deleted = true;
-		// 						}
-		// 					}
-		// 					//Restore
-		// 					DAO.store(DAO.NOTES, user, { notes: retrievedNotes }, function(err){
-		// 						if(err){
-		// 							logger.error('Could not restore notes.');
-		// 						}
-		// 					});
-		// 				}
-		// 			}
-		// 		});
-		// 	}
-		// });
 	}
 
 	// function sendNote(to, from, msg){
