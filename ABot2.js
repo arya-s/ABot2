@@ -41,7 +41,13 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
     		responses = data;
     	}
     });
-    console.log(responses);
+
+    USERS.find().toArray(function(err, data){
+    	if(!err){
+    		console.log("Users:");
+    		console.log(data);
+    	}
+    });
 	// responses.insert(
 	// 	{ all: [
 	// 			"Okay, okay. I got your note, relax.",
