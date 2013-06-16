@@ -38,7 +38,9 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
     var responses = [];
     RESPONSES.find().toArray(function(err, data){
     	if(!err){
-    		responses = data;
+    		if(data.length > 0){
+    			responses = data[0].all;
+    		}
     	}
     });
 
@@ -54,6 +56,8 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		}
 	);
 	var stream = twit.stream('user', { 'with' : 'user' });
+
+	console.log('===Bot: ',bot);
 
 	bot.on('join', function(channel, nick, message){
 		//Start listening to tweets only if the bot is connected.
@@ -112,7 +116,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 							if(data.length > 0){
 								var notes = data[0].notes;
 								notes.forEach(function(note){
-									bot.say(to, nick+': '+note.sender+' left you a note '+moment(note.sentAt).fromNow()+' ago: '+note.text);
+									bot.say(to, nick+': '+note.sender+' left you a note '+moment(note.sentAt).fromNow()+': '+note.text);
 								});
 								if(notes.length > 0){
 									//Reset user's note status
@@ -214,7 +218,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 			}
 		});
 	}
-	
+
 	function tellUptime(to){
 		bot.say(to, 'I\'ve been slaving away for you shitty humans for '+moment(uptime).fromNow(true)+'.');
 	}
