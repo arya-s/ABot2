@@ -170,6 +170,8 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 					} else {
 						bot.say(to, 'I don\'t know that son of a bitch. Use ?users to list available users and try again.');
 					}
+				} else {
+					logger.error('Could not retrieve user:'+user+'. ',err);
 				}
 			});
 		} else {
@@ -178,20 +180,22 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		}
 	}
 
-	// function tellAlias(to, user){
-	// 	if(user.length > 0){
-	// 		DAO.get(DAO.USERS, user, function(err, data){
-	// 			if(err){
-	// 				bot.say(to, 'Databases error occured. User might not exist. Use ?users to list available users.');
-	// 				return;
-	// 			}
-	// 			bot.say(to, data.aliases.join(', '));
-	// 		});
-	// 	} else {
-	// 		bot.say(to, 'Command usage: ?alias <user>');
-	// 		bot.say(to, 'Shows <user>\'s aliases. Use ?users to list available users.');
-	// 	}
-	// }
+	function tellAlias(to, user){
+		if(user.length > 0){
+			USERS.find({ name: user }).toArray(function(err, data){
+				if(!err){
+					if(data.length > 0){
+						bot.say(to, data[0].aliases.join(', '));
+					} else {
+						bot.say(to, 'I don\'t know that son of a bitch. Use ?users to list available users and try again.');
+					}
+				}
+			});
+		} else {
+			bot.say(to, 'Command usage: ?alias <user>');
+			bot.say(to, 'Shows <user>\'s aliases. Use ?users to list available users.');
+		}
+	}
 
 	// function tellBaseUsers(to){
 	// 	DAO.getAll(DAO.USERS, function(data){
