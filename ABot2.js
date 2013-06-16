@@ -43,8 +43,6 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
     });
 
 	var irc = require('irc');
-	var responses = [];
-
 	var bot = new irc.Client(
 		config.server,
 		config.botname,
@@ -87,7 +85,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 				if(cmd === 'note'){
 					sendNote(to, nick, msg);
 				} else if(cmd === 'alias'){
-					//addAlias(to, msg);
+					addAlias(to, msg);
 				}
 			} else if(operator === '?'){
 				if(cmd === 'uptime'){
@@ -159,76 +157,26 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		}
 	}
 
-	// function sendNote(to, from, msg){
-	// 	var splitted = msg.split(' ');
-	// 	if(splitted.length >= 2){
-	// 		var now = Date.now();
-	// 		var receiver = splitted.splice(0, 1)[0];
-	// 		var message = splitted.join(' ');
-	// 		//To make notes checking easier, we want to save the note to the base user, not the alias
-	// 		DAO.getAll(DAO.USERS, function(data){
-	// 			var user = '';
-	// 			//Find out the user to this alias
-	// 			for(var i=0; i<data.length; i++){
-	// 				if(i%2 === 1){
-	// 					if(data[i].aliases.indexOf(receiver) !== -1){
-	// 						//Found the alias in this user's aliases -> save the user
-	// 						user = data[i-1].key;
-	// 						break;
-	// 					}
-	// 				}
-	// 			}
-	// 			//get all notes from this user so we don't overwrite previously undelivered notes
-	// 			if(user.length > 0){
-	// 				DAO.get(DAO.NOTES, user, function(err, data){
-	// 					var storedNotes = [];
-	// 					if(!err){
-	// 						//If notes exists, we have to store them
-	// 						storedNotes = data.notes;
-	// 					}
-	// 					//Save the new note
-	// 					storedNotes.push({ sender: from, sentAt: now, text: message, deleted: false });
-	// 					DAO.store(DAO.NOTES, user, { notes: storedNotes }, function(err){
-	// 						if(err){
-	// 							bot.say(to, 'Could not store the note. Please try again.');
-	// 							return;
-	// 						}
-	// 						bot.say(to, responses[util.rnd(0, responses.length)]);
-	// 					});
-	// 				});
-	// 			}
-	// 		});
-	// 	} else {
-	// 		bot.say(to, 'Command usage: !note <alias> <message>.');
-	// 		bot.say(to, 'Stores <message> for <alias>. When <alias> logs in, the note will be delivered.');
-	// 	}
-	// }
-
-	// function addAlias(to, msg){
-	// 	var splitted = msg.split(' ');
-	// 	if(splitted.length === 2){
-	// 		var user = splitted[0];
-	// 		var alias = splitted[1];
-	// 		DAO.get(DAO.USERS, user, function(err, data){
-	// 			if(err){
-	// 				bot.say(to, 'Databases error occured. User might not exist. Use ?users to list available users.');
-	// 				return;
-	// 			}
-	// 			var a = data.aliases;
-	// 			a.push(alias);
-	// 			DAO.store(DAO.USERS, user, { aliases: a }, function(err){
-	// 				if(err){
-	// 					bot.say(to, 'Could not add alias to user.');
-	// 					return;
-	// 				}
-	// 				bot.say(to, 'Added alias '+alias+' to '+user+'.');
-	// 			});
-	// 		});
-	// 	} else {
-	// 		bot.say(to, 'Command usage: !alias <user> <alias>');
-	// 		bot.say(to, 'Adds <alias> to <user>\'s existing aliases. Use ?users to list available users.');
-	// 	}
-	// }
+	function addAlias(to, msg){
+		var splitted = msg.split(' ');
+		if(splitted.length === 2){
+			var user = splitted[0];
+			var alias = splitted[1];
+			USERS.find({ name: user }).toArray(function(err, data){
+				if(!err){
+					if(data.length > 0){
+						USERS.update({ name: users }, { '$addToSet': { aliases: alias } }, { w: 0 });
+						bot.say(to, 'Added alias '+alias+' to '+user+'.');
+					} else {
+						bot.say(to, 'I don\'t know that son of a bitch. Use ?users to list available users and try again.');
+					}
+				}
+			});
+		} else {
+			bot.say(to, 'Command usage: !alias <user> <alias>');
+			bot.say(to, 'Adds <alias> to <user>\'s existing aliases. Use ?users to list available users.');
+		}
+	}
 
 	// function tellAlias(to, user){
 	// 	if(user.length > 0){
