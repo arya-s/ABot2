@@ -186,7 +186,12 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 			USERS.find({ name: user }).toArray(function(err, data){
 				if(!err){
 					if(data.length > 0){
-						bot.say(to, data[0].aliases.join(', '));
+						var aliases = [];
+						data[0].aliases.forEach(function(entry){
+							aliases.push(obscure(entry, ':'));
+						});
+						bot.say(to, aliases.join(', '));
+						bot.say(to, 'Ignore \':\' when using the aliases for other queries.');
 					} else {
 						bot.say(to, 'I don\'t know that son of a bitch. Use ?users to list available users and try again.');
 					}
@@ -207,12 +212,10 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 					var users = [];
 					data.forEach(function(entry){
 						//Obscure the username with a randomly placed ':' in between to not trigger highlights
-						var obscurePosition = util.rnd(1, entry.name.length-1);
-						var obscuredUser = [entry.name.slice(0, obscurePosition), ':', entry.name.slice(obscurePosition)].join('');
-						users.push(obscuredUser);
+						users.push(util.obscure(entry.name, ':'));
 					});
-					bot.say(to, 'Here are the obscured users. Ignore \':\' when using the username for other queries.');
 					bot.say(to, users.join(', '));
+					bot.say(to, 'Ignore \':\' when using the username for other queries.');
 				}
 			} else {
 				logger.error('Could not retrieve users. ',err);
