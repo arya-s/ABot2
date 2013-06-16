@@ -43,7 +43,6 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
     		}
     	}
     });
-
 	var irc = require('irc');
 	var bot = new irc.Client(
 		config.server,
@@ -57,9 +56,8 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 	);
 	var stream = twit.stream('user', { 'with' : 'user' });
 
-	console.log('===Bot: ',bot);
-
 	bot.on('join', function(channel, nick, message){
+		console.log('===Bot: ',bot);
 		//Start listening to tweets only if the bot is connected.
 		if(nick === config.botname){
 			stream.on('tweet', function (tweet) {
@@ -72,7 +70,6 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 			});
 		}
 	});
-
 	bot.addListener('message', function(nick, to, text, message){
 		logger.info('['+to+'] '+nick+': '+text);
 		checkNotes(to, nick);
