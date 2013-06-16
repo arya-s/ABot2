@@ -93,7 +93,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 				} else if(cmd === 'users'){
 					tellBaseUsers(to);
 				} else if(cmd === 'alias'){
-					//tellAlias(to, msg);
+					tellAlias(to, msg);
 				}
 			}
 		}
@@ -214,18 +214,8 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 			}
 		});
 	}
-
-	// function tellBaseUsers(to){
-	// 	DAO.getAll(DAO.USERS, function(data){
-	// 		var users = [];
-	// 		for(var i=0; i<data.length; i+=2){
-	// 			users.push(data[i].key);
-	// 		}
-	// 		bot.say(to, users.join(', '));
-	// 	});
-	// }
-
-	// function tellUptime(to){
-	// 	bot.say(to, 'I\'ve been slaving away for you shitty humans for '+moment(uptime).fromNow(true)+'.');
-	// }
+	
+	function tellUptime(to){
+		bot.say(to, 'I\'ve been slaving away for you shitty humans for '+moment(uptime).fromNow(true)+'.');
+	}
 });
