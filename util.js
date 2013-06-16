@@ -6,3 +6,8 @@ exports.trim = function(str){
 exports.rnd = function(from, to){
 	return Math.floor((Math.random()*to)+from);
 };
+
+exports.obscure = function(in, op){
+	var obscurePosition = this.rnd(1, in.length-1);
+	return [in.slice(0, obscurePosition), op, in.slice(obscurePosition)].join('');
+};
