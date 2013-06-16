@@ -165,7 +165,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 			USERS.find({ name: user }).toArray(function(err, data){
 				if(!err){
 					if(data.length > 0){
-						USERS.update({ name: users }, { '$addToSet': { aliases: alias } }, { w: 0 });
+						USERS.update({ name: user }, { '$addToSet': { aliases: alias } }, { w: 0 });
 						bot.say(to, 'Added alias '+alias+' to '+user+'.');
 					} else {
 						bot.say(to, 'I don\'t know that son of a bitch. Use ?users to list available users and try again.');
