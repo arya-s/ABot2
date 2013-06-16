@@ -91,7 +91,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 				if(cmd === 'uptime'){
 					tellUptime(to);
 				} else if(cmd === 'users'){
-					//tellBaseUsers(to);
+					tellBaseUsers(to);
 				} else if(cmd === 'alias'){
 					//tellAlias(to, msg);
 				}
@@ -171,7 +171,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 						bot.say(to, 'I don\'t know that son of a bitch. Use ?users to list available users and try again.');
 					}
 				} else {
-					logger.error('Could not retrieve user:'+user+'. ',err);
+					logger.error('Could not retrieve user: '+user+'. ',err);
 				}
 			});
 		} else {
@@ -189,12 +189,30 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 					} else {
 						bot.say(to, 'I don\'t know that son of a bitch. Use ?users to list available users and try again.');
 					}
+				} else {
+					logger.error('Could not retrieve user: '+user+'. ',err);
 				}
 			});
 		} else {
 			bot.say(to, 'Command usage: ?alias <user>');
 			bot.say(to, 'Shows <user>\'s aliases. Use ?users to list available users.');
 		}
+	}
+
+	function tellBaseUsers(to){
+		USERS.find().toArray(function(err, data){
+			if(!err){
+				if(data.length > 0){
+					var users = [];
+					data.forEach(function(entry){
+						users.push(entry.name);
+					});
+					bot.say(to, users.join(', '));
+				}
+			} else {
+				logger.error('Could not retrieve users. ',err);
+			}
+		});
 	}
 
 	// function tellBaseUsers(to){
