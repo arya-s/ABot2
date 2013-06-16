@@ -57,9 +57,9 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 	var stream = twit.stream('user', { 'with' : 'user' });
 
 	bot.on('join', function(channel, nick, message){
-		console.log('===Bot: ',bot);
+		console.log("Bot nick: "+bot.nick);
 		//Start listening to tweets only if the bot is connected.
-		if(nick === config.botname){
+		if(nick === bot.nick){
 			stream.on('tweet', function (tweet) {
 				if(tweet.entities.urls.length > 0){
 					var url = tweet.entities.urls[0].expanded_url;
