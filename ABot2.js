@@ -206,8 +206,12 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 				if(data.length > 0){
 					var users = [];
 					data.forEach(function(entry){
-						users.push(entry.name);
+						//Obscure the username with a randomly placed ':' in between to not trigger highlights
+						var obscurePosition = util.rnd(1, entry.name.length-1);
+						var obscuredUser = [entry.name.slice(0, obscurePosition), ':', entry.name.slice(obscurePosition)].join('');
+						users.push(obscuredUser);
 					});
+					bot.say(to, 'Here are the obscured users. Ignore \':\' when using the username for other queries.');
 					bot.say(to, users.join(', '));
 				}
 			} else {
