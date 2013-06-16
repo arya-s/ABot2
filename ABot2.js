@@ -188,7 +188,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 					if(data.length > 0){
 						var aliases = [];
 						data[0].aliases.forEach(function(entry){
-							aliases.push(obscure(entry, ':'));
+							aliases.push(util.obscure(entry, ':'));
 						});
 						bot.say(to, aliases.join(', '));
 						bot.say(to, 'Ignore \':\' when using the aliases for other queries.');
