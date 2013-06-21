@@ -110,9 +110,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 			var entry = splitted[i];
 			if((entry.indexOf('http://') !== -1 || entry.indexOf('www.') !== -1) && entry.indexOf('vine.co') === -1){
 				if(entry.indexOf('http://') === -1){
-					console.log('====URL: '+entry);
 					entry = 'http://'+entry;
-					console.log('====URL: '+entry);
 				}
 				urls.push(entry);
 			}
@@ -133,7 +131,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 				var $ = cheerio.load(html);
 				var title = $('title').text();
 				bot.say(to, '['+(pos+1)+'] '+title);
-				if(pos === urls.length){
+				if(pos === urls.length-1){
 					return;
 				} else {
 					fetchTitle(to, urls, pos+1);
@@ -142,7 +140,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		}).on('error', function(err){
 			logger.error('Can\'t parse URL: ',err);
 			//Need to continue in case there are more urls
-			if(pos === urls.length){
+			if(pos === urls.length-1){
 					return;
 			} else {
 				fetchTitle(to, urls, pos+1);
