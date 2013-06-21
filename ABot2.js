@@ -109,8 +109,10 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		for(var i=0; i<splitted.length; i++){
 			var entry = splitted[i];
 			if((entry.indexOf('http://') !== -1 || entry.indexOf('www.') !== -1) && entry.indexOf('vine.co') === -1){
-				if(entry.indexOf('http://') == -1){
+				if(entry.indexOf('http://') === -1){
+					console.log('====URL: '+entry);
 					entry = 'http://'+entry;
+					console.log('====URL: '+entry);
 				}
 				urls.push(entry);
 			}
