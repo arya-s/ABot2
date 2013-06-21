@@ -109,6 +109,9 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		for(var i=0; i<splitted.length; i++){
 			var entry = splitted[i];
 			if((entry.indexOf('http://') !== -1 || entry.indexOf('www.') !== -1) && entry.indexOf('vine.co') === -1){
+				if(entry.indexOf('http://') == -1){
+					entry = 'http://'+entry;
+				}
 				urls.push(entry);
 			}
 		}
@@ -136,6 +139,12 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 			});
 		}).on('error', function(err){
 			logger.error('Can\'t parse URL: ',err);
+			//Need to continue in case there are more urls
+			if(pos === urls.length){
+					return;
+			} else {
+				fetchTitle(to, urls, pos+1);
+			}
 		});
 	}
 
