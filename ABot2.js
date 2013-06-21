@@ -112,10 +112,10 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 				urls.push(entry);
 			}
 		}
-		fetchTitle(urls, 0);
+		fetchTitle(to, urls, 0);
 	}
 
-	function fetchTitle(urls, pos){
+	function fetchTitle(to, urls, pos){
 		var url = urls[pos];
 		var html = '';
 		http.get(url, function(res){
