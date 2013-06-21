@@ -1,5 +1,7 @@
 var util = require('./util.js');
 var moment = require('moment');
+var cheerio = require('cheerio');
+var http = require('http');
 var winston = require('winston');
 var logger = new (winston.Logger)({
     transports: [
@@ -95,6 +97,30 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 				} else if(cmd === 'alias'){
 					tellAlias(to, msg);
 				}
+			}
+		} else {
+			checkUrl(to, text);
+		}
+	}
+
+	function checkUrl(to, text){
+		var splitted = text.split(' ');
+		for(var i=0; i<splitted.length; i++){
+			var entry = splitted[i];
+			if((entry.indexOf('http://') !== -1 || entry.indexOf('www.') !== -1) && entry.indexOf('vine.co') === -1){
+				var html = '';
+				http.get(entry, function(res){
+					res.on('data', function(chunk){
+						html += chunk;
+					});
+					res.on('end', function(){
+						var $ = cheerio.load(html);
+						var title = $('title').text();
+						bot.say(to, '['+(i+1)+'] '+title);
+					});
+				}).on('error', function(err){
+					logger.error('Can\'t parse URL: ',err);
+				});
 			}
 		}
 	}
