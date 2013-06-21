@@ -112,7 +112,9 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 				urls.push(entry);
 			}
 		}
-		fetchTitle(to, urls, 0);
+		if(urls.length > 0){
+			fetchTitle(to, urls, 0);
+		}
 	}
 
 	function fetchTitle(to, urls, pos){
