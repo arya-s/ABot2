@@ -105,26 +105,36 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 
 	function checkUrl(to, text){
 		var splitted = text.split(' ');
-		var urlCount = 0;
+		var urls = [];
 		for(var i=0; i<splitted.length; i++){
 			var entry = splitted[i];
 			if((entry.indexOf('http://') !== -1 || entry.indexOf('www.') !== -1) && entry.indexOf('vine.co') === -1){
-				urlCount++;
-				var html = '';
-				http.get(entry, function(res){
-					res.on('data', function(chunk){
-						html += chunk;
-					});
-					res.on('end', function(){
-						var $ = cheerio.load(html);
-						var title = $('title').text();
-						bot.say(to, '['+urlCount+'] '+title);
-					});
-				}).on('error', function(err){
-					logger.error('Can\'t parse URL: ',err);
-				});
+				urls.push(entry);
 			}
 		}
+		fetchTitle(urls, 0);
+	}
+
+	function fetchTitle(urls, pos){
+		var url = urls[pos];
+		var html = '';
+		http.get(url, function(res){
+			res.on('data', function(chunk){
+				html += chunk;
+			});
+			res.on('end', function(){
+				var $ = cheerio.load(html);
+				var title = $('title').text();
+				bot.say(to, '['+(pos+1)+'] '+title);
+				if(pos === urls.length){
+					return;
+				} else {
+					fetchTitle(urls, pos+1);
+				}
+			});
+		}).on('error', function(err){
+			logger.error('Can\'t parse URL: ',err);
+		});
 	}
 
 	function checkNotes(to, nick){
