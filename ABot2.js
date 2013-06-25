@@ -66,7 +66,10 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 					var url = tweet.entities.urls[0].expanded_url;
 					if(url.indexOf('vine.co') !== -1){
 						bot.say(channel, 'Arya uploaded a new video: '+url);
-					} else if(url.indexOf('pic.twitter.com') !== -1){
+					}
+				} else if(tweet.entities.media.length > 0){
+					var url = tweet.entities.media.media_url[0].media_url;
+					if(url.indexOf('.jpg') !== -1){
 						bot.say(channel, 'Arya uploaded a new picture: '+url);
 					}
 				}
