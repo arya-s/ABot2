@@ -79,7 +79,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 	bot.addListener('message', function(nick, to, text, message){
 		logger.info('['+to+'] '+nick+': '+text);
 		checkNotes(to, nick);
-		parseMessage(nick, to, util.trim(text.toLowerCase()), message);
+		parseMessage(nick, to, text, message);
 	});
 
 	function parseMessage(nick, to, text, message){
@@ -103,9 +103,11 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 					tellAlias(to, msg);
 				}
 			}
-		} else {
-			checkUrl(to, text);
-		}
+		} 
+		//XXX: Improve title fetching
+		//else {
+			//checkUrl(to, text);
+		//}
 	}
 
 	function checkUrl(to, text){
@@ -188,7 +190,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		var splitted = msg.split(' ');
 		if(splitted.length >= 2){
 			var now = Date.now();
-			var receiver = splitted.splice(0, 1)[0];
+			var receiver = util.trim(splitted.splice(0, 1)[0].toLowerCase());
 			var message = splitted.join(' ');
 			//Find the base user to the receiver alias because notes are stored per base user
 			USERS.find({ aliases: { '$in': [receiver] } }).toArray(function(err, data){
@@ -212,8 +214,9 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 	}
 
 	function addAlias(to, msg){
-		var splitted = msg.split(' ');
+		var splitted = util.trim(msg.toLowerCase()).split(' ');
 		if(splitted.length === 2){
+			util.trim(msg.toLowerCase())
 			var user = splitted[0];
 			var alias = splitted[1];
 			USERS.find({ name: user }).toArray(function(err, data){
@@ -236,7 +239,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 
 	function tellAlias(to, user){
 		if(user.length > 0){
-			USERS.find({ name: user }).toArray(function(err, data){
+			USERS.find({ name: util.trim(user.toLowerCase()) }).toArray(function(err, data){
 				if(!err){
 					if(data.length > 0){
 						var aliases = [];
