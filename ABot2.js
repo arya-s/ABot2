@@ -121,7 +121,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		var desc = splitted.join(' '); 
 		if((link.indexOf('http://') !== -1 || link.indexOf('www.') !== -1)){
 			if(link.indexOf('http://') === -1){
-				link = 'http://'+url;
+				link = 'http://'+link;
 			}
 			LINKS.insert({ url: link, description: desc, sender: nick, sentAt: Date.now() }, { safe: true }, function(err, records){
 				if(!err){
