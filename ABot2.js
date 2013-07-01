@@ -136,7 +136,16 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 	}
 
 	function tellLinks(to){
-		bot.say(to, 'Check them yourself, who do you think I am? http://secret-taiga-6562.herokuapp.com/');
+		LINKS.find().sort({ sentAt: -1}).limit(3).toArray(function(err, data){
+			if(!err){
+				data.forEach(function(link){
+					bot.say(to, link.description+': '+link.url+' by '+link.sender+' '+moment(link.sentAt).fromNow());
+					bot.say(to, 'More at: http://secret-taiga-6562.herokuapp.com/');
+				});
+			} else {
+				bot.say(to, 'Couldn\'t fetch any links. Check the damn website yourself: http://secret-taiga-6562.herokuapp.com/');
+			}
+		});
 	}
 
 	function checkUrl(to, text){
