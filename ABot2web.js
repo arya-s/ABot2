@@ -25,7 +25,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 			if(!err){
 				var out = '';
 				data.forEach(function(link){
-					out = '<p><a href="'+link.url+'" target="_blank">'+link.url+'</a>';
+					out += '<p><a href="'+link.url+'" target="_blank">'+link.url+'</a>';
 					if(link.description !== undefined){
 						out += '<br />'+link.description+'<br />';
 					}
