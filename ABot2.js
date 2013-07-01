@@ -36,6 +36,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 	var RESPONSES = new mongodb.Collection(db, 'responses');
 	var USERS = new mongodb.Collection(db, 'users');
 	var NOTES = new mongodb.Collection(db, 'notes');
+	var LINKS = new mongodb.Collection(db, 'links');
 
     var responses = [];
     RESPONSES.find().toArray(function(err, data){
@@ -93,6 +94,8 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 					sendNote(to, nick, msg);
 				} else if(cmd === 'alias'){
 					addAlias(to, msg);
+				} else if(cmd === 'add'){
+					addLink(to, nick, msg);
 				}
 			} else if(operator === '?'){
 				if(cmd === 'uptime'){
@@ -101,6 +104,8 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 					tellBaseUsers(to);
 				} else if(cmd === 'alias'){
 					tellAlias(to, msg);
+				} else if(cmd === 'links'){
+					tellLinks(to);
 				}
 			}
 		} 
@@ -108,6 +113,30 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		//else {
 			//checkUrl(to, text);
 		//}
+	}
+
+	function addLink(to, nick, msg){
+		var splitted = msg.split(' ');
+		var link = splitted.splice(0, 1)[0];
+		var desc = splitted.join(' '); 
+		if((link.indexOf('http://') !== -1 || link.indexOf('www.') !== -1)){
+			if(link.indexOf('http://') === -1){
+				link = 'http://'+url;
+			}
+			LINKS.insert({ url: link, description: desc, sender: nick, sentAt: Date.now() }, { safe: true }, function(err, records){
+				if(!err){
+					bot.say(to, 'Added your shitty waste of space link.');
+				} else {
+					bot.say(to, 'I didn\'t feel like saving your worthless link. Try again maybe, I don\'t know.');
+				}
+			});
+		} else {
+			bot.say(to, 'That\'s not a valid URL. No funny business.');
+		}
+	}
+
+	function tellLinks(to){
+		bot.say(to, 'Check them yourself, who do you think I am? http://secret-taiga-6562.herokuapp.com/');
 	}
 
 	function checkUrl(to, text){
