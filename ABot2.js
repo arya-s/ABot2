@@ -140,7 +140,11 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 			if(!err){
 				data.sort(function(a,b) {return (a.sentAt > b.sentAt) ? 1 : ((b.sentAt > a.sentAt) ? -1 : 0);});
 				data.forEach(function(link){
-					bot.say(to, link.description+': '+link.url+' by '+link.sender+' '+moment(link.sentAt).fromNow());
+					if(link.description.length > 0){
+						bot.say(to, link.description+': '+link.url+' by '+link.sender+' '+moment(link.sentAt).fromNow());
+					} else {
+						bot.say(to, link.url+' by '+link.sender+' '+moment(link.sentAt).fromNow());
+					}
 				});
 				bot.say(to, 'More at: http://secret-taiga-6562.herokuapp.com/');
 			} else {
