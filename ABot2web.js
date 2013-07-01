@@ -23,15 +23,15 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		//Quick and dirty
 		LINKS.find().toArray(function(err, data){
 			if(!err){
-				console.log(data.length);
+				var out = '';
 				data.forEach(function(link){
-					var out = '<p><a href="'+link.url+'" target="_blank">'+link.url+'</a>';
+					out = '<p><a href="'+link.url+'" target="_blank">'+link.url+'</a>';
 					if(link.description !== undefined){
 						out += '<br />'+link.description+'<br />';
 					}
 					out += ' by '+link.sender+' '+moment(link.sentAt).fromNow()+'.</p>';
-					response.send(out);
 				});
+				response.send(out);
 			} else {
 				logger.error('Could not retrieve links. ',err);
 			}
