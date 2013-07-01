@@ -5,6 +5,7 @@ var logger = new (winston.Logger)({
       new (winston.transports.File)({ filename: './weblog.log' })
     ]
 });
+var moment = require('moment');
 var mongodb = require('mongodb');
 var url = require('url');
 var connectionUri = url.parse(process.env.MONGOHQ_URL);
@@ -23,7 +24,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		LINKS.find().toArray(function(err, data){
 			if(!err){
 				data.forEach(function(link){
-					response.send('<p><a href="'+link.url+' target="_blank">'+link.url+'</a> by '+link.sender+' at '+Date(link.sentAt)+'</p>');
+					response.send('<p><a href="'+link.url+'" target="_blank">'+link.url+'</a> by '+link.sender+' '+moment(link.sentAt).fromNow()+'.</p>');
 				});
 			} else {
 				logger.error('Could not retrieve links. ',err);
