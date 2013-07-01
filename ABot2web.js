@@ -21,7 +21,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 	var app = express();
 	app.get('/', function(request, response){
 		//Quick and dirty
-		LINKS.find().toArray(function(err, data){
+		LINKS.find().sort({ sentAt: -1}).toArray(function(err, data){
 			if(!err){
 				var out = '';
 				data.forEach(function(link){
