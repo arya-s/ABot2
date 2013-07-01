@@ -8,7 +8,7 @@ var logger = new (winston.Logger)({
 var express = require('express');
 var app = express();
 app.get('/', function(request, response){
-	response.send('This is the webinterface for ABot2.');
+	response.send('This is the webinterface for ABot2. <a href="www.google.com" target="_blank">test</a>');
 });
 var port = process.env.PORT || 5000;
 app.listen(port, function() {
