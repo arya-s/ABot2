@@ -242,3 +242,39 @@
 {"level":"info","message":"[#babodebug] Arya: hi","timestamp":"2013-06-09T09:38:42.795Z"}
 {"level":"info","message":"[#babodebug] Arya: hi","timestamp":"2013-06-09T09:38:45.792Z"}
 {"level":"info","message":"[#babodebug] Arya: hi","timestamp":"2013-06-09T09:38:48.592Z"}
+{"level":"info","message":"[#babodebug] Arya: ?uptime","timestamp":"2013-06-10T17:04:18.154Z"}
+{"level":"info","message":"[#babodebug] Arya: !note arya test","timestamp":"2013-06-10T17:04:27.520Z"}
+{"level":"info","message":"[#babodebug] Arya: test","timestamp":"2013-06-10T17:04:30.077Z"}
+{"level":"info","message":"[#babodebug] Arya: ?uptime","timestamp":"2013-06-11T04:35:38.784Z"}
+{"level":"info","message":"[#babodebug] Arya: ?uptime","timestamp":"2013-06-11T04:36:29.546Z"}
+{"level":"info","message":"[#babodebug] Arya: !note arya test","timestamp":"2013-06-11T04:36:42.123Z"}
+{"level":"info","message":"[#babodebug] Arya: .","timestamp":"2013-06-11T04:37:04.957Z"}
+{"level":"info","message":"[#babodebug] Arya: !note arya test","timestamp":"2013-06-11T04:56:44.654Z"}
+{"level":"info","message":"[#babodebug] Arya: .","timestamp":"2013-06-11T04:56:53.395Z"}
+{"level":"info","message":"[#babodebug] Arya: ?uptime","timestamp":"2013-06-11T04:57:03.284Z"}
+{"level":"info","message":"[#babodebug] Arya: !note arya .","timestamp":"2013-06-11T05:03:54.196Z"}
+{"level":"info","message":"[#babodebug] Arya: .","timestamp":"2013-06-11T05:06:30.451Z"}
+{"level":"info","message":"[#babodebug] Arya: !note arya .","timestamp":"2013-06-11T05:10:08.838Z"}
+{"level":"info","message":"[#babodebug] Arya: .","timestamp":"2013-06-11T05:10:45.247Z"}
+{"level":"info","message":"[#babodebug] Arya: !note arya ok","timestamp":"2013-06-11T05:10:58.300Z"}
+{"level":"info","message":"[#babodebug] Arya: !note arya ok","timestamp":"2013-06-11T05:14:54.316Z"}
+{"level":"info","message":"[#babodebug] Arya: .","timestamp":"2013-06-11T05:15:09.444Z"}
+{"level":"info","message":"[#babodebug] Arya: .","timestamp":"2013-06-11T05:15:17.922Z"}
+{"level":"info","message":"[#babodebug] Arya: !note arya ok","timestamp":"2013-06-11T05:15:27.915Z"}
+{"level":"info","message":"[#babodebug] Arya: .","timestamp":"2013-06-11T05:15:31.210Z"}
+{"level":"info","message":"[#babodebug] Arya: !note arya ok","timestamp":"2013-06-11T05:15:37.463Z"}
+{"level":"info","message":"[#babodebug] Arya: .","timestamp":"2013-06-11T05:17:21.466Z"}
+{"level":"info","message":"[#babodebug] Arya: ?users","timestamp":"2013-06-14T02:38:01.995Z"}
+{"level":"info","message":"[#babodebug] Arya: ?users","timestamp":"2013-06-14T02:44:20.204Z"}
+{"level":"info","message":"[#babodebug] Arya: ?users","timestamp":"2013-06-14T02:51:55.593Z"}
+{"level":"info","message":"[#babodebug] Arya: !alias fanta fanta","timestamp":"2013-06-14T02:52:38.844Z"}
+{"level":"info","message":"[#babodebug] Arya: ?alias fanta","timestamp":"2013-06-14T02:52:48.601Z"}
+{"level":"info","message":"[#babodebug] Arya: ?users","timestamp":"2013-06-14T02:54:59.506Z"}
+{"level":"info","message":"[#babodebug] Arya: !note fanta first note","timestamp":"2013-06-14T03:00:21.766Z"}
+{"level":"info","message":"[#babodebug] Arya: hi","timestamp":"2013-06-14T03:01:09.725Z"}
+{"level":"info","message":"[#babodebug] Arya: ?alias fanta","timestamp":"2013-06-14T03:01:30.272Z"}
+{"level":"info","message":"[#babodebug] Arya: !alias Arya","timestamp":"2013-06-14T03:01:34.042Z"}
+{"level":"info","message":"[#babodebug] Arya: !alias fanta Arya","timestamp":"2013-06-14T03:01:39.706Z"}
+{"level":"info","message":"[#babodebug] Arya: hi","timestamp":"2013-06-14T03:01:43.025Z"}
+{"level":"info","message":"[#babodebug] Arya: ?users","timestamp":"2013-06-14T03:07:48.889Z"}
+{"level":"info","message":"[#babodebug] Arya: ?users","timestamp":"2013-06-14T03:08:23.296Z"}

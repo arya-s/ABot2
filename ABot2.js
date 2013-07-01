@@ -136,8 +136,9 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 	}
 
 	function tellLinks(to){
-		LINKS.find().sort({ sentAt: 1}).limit(3).toArray(function(err, data){
+		LINKS.find().sort({ sentAt: -1}).limit(3).toArray(function(err, data){
 			if(!err){
+				data.sort(function(a,b) {return (a.sentAt > b.sentAt) ? -1 : ((b.sentAt > a.sentAt) ? 1 : 0);});
 				data.forEach(function(link){
 					bot.say(to, link.description+': '+link.url+' by '+link.sender+' '+moment(link.sentAt).fromNow());
 				});
