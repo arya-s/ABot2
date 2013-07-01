@@ -23,6 +23,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		//Quick and dirty
 		LINKS.find().toArray(function(err, data){
 			if(!err){
+				console.log(data.length);
 				data.forEach(function(link){
 					var out = '<p><a href="'+link.url+'" target="_blank">'+link.url+'</a>';
 					if(link.description !== undefined){
