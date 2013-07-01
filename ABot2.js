@@ -3,6 +3,7 @@ var moment = require('moment');
 var cheerio = require('cheerio');
 var http = require('http');
 var winston = require('winston');
+var esc = require('escape-html');
 var logger = new (winston.Logger)({
     transports: [
       new (winston.transports.Console)({ level: 'info' }),
@@ -118,7 +119,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 	function addLink(to, nick, msg){
 		var splitted = msg.split(' ');
 		var link = splitted.splice(0, 1)[0];
-		var desc = undefined || splitted.join(' '); 
+		var desc = esc(splitted.join(' ')); 
 		if((link.indexOf('http://') !== -1 || link.indexOf('https://') !== -1 || link.indexOf('www.') !== -1)){
 			if(link.indexOf('http://') === -1 && link.indexOf('https://') === -1){
 				link = 'http://'+link;
