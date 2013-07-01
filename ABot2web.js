@@ -24,15 +24,14 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		LINKS.find().toArray(function(err, data){
 			if(!err){
 				data.forEach(function(link){
-					var html = '
+					var out = '
 						<p>
-							<a href="'+link.url+'" target="_blank">'+link.url +'</a>
-					';
+							<a href="'+link.url+'" target="_blank">'+link.url+'</a>';
 					if(link.description !== 'undefined'){
-						html += '<br />'+link.description+'<br />';
+						out += '<br />'+link.description+'<br />';
 					}
-					html += ' by '+link.sender+' '+moment(link.sentAt).fromNow()+'.</p>';
-					response.send(html);
+					out += ' by '+link.sender+' '+moment(link.sentAt).fromNow()+'.</p>';
+					response.send(out);
 				});
 			} else {
 				logger.error('Could not retrieve links. ',err);
