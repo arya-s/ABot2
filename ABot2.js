@@ -119,8 +119,8 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		var splitted = msg.split(' ');
 		var link = splitted.splice(0, 1)[0];
 		var desc = undefined || splitted.join(' '); 
-		if((link.indexOf('http://') !== -1 || link.indexOf('www.') !== -1)){
-			if(link.indexOf('http://') === -1){
+		if((link.indexOf('http://') !== -1 || link.indexOf('https://') !== -1 || link.indexOf('www.') !== -1)){
+			if(link.indexOf('http://') === -1 && link.indexOf('https://') === -1){
 				link = 'http://'+link;
 			}
 			LINKS.insert({ url: link, description: desc, sender: nick, sentAt: Date.now() }, { safe: true }, function(err, records){
