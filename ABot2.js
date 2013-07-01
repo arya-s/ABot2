@@ -117,9 +117,10 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 	}
 
 	function addLink(to, nick, msg){
+		msg = esc(msg);
 		var splitted = msg.split(' ');
 		var link = splitted.splice(0, 1)[0];
-		var desc = esc(splitted.join(' ')); 
+		var desc = splitted.join(' '); 
 		if((link.indexOf('http://') !== -1 || link.indexOf('https://') !== -1 || link.indexOf('www.') !== -1)){
 			if(link.indexOf('http://') === -1 && link.indexOf('https://') === -1){
 				link = 'http://'+link;
