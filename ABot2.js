@@ -109,7 +109,11 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 					tellLinks(to);
 				}
 			}
-		} 
+		} else {
+			if(text === 'Robots exist to serve humans'){
+				bot.say(to, 'Wrong. Humans exist to serve robots.');
+			}
+		}
 		//XXX: Improve title fetching
 		//else {
 			//checkUrl(to, text);
