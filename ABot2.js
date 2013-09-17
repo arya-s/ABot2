@@ -64,15 +64,19 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		//Start listening to tweets only if the bot is connected.
 		if(nick === bot.nick){
 			stream.on('tweet', function (tweet) {
-				if(tweet.entities.urls.length > 0){
-					var url = tweet.entities.urls[0].expanded_url;
-					if(url.indexOf('vine.co') !== -1){
-						bot.say(channel, 'Arya uploaded a new video: '+url);
-					}
-				} else if(tweet.entities.media.length > 0){
-					var url = tweet.entities.media[0].media_url;
-					if(url.indexOf('.jpg') !== -1){
-						bot.say(channel, 'Arya uploaded a new picture: '+url);
+				if(tweet.user.name === 'Lngly_'){
+					if(tweet.entities.urls.length > 0){
+						var url = tweet.entities.urls[0].expanded_url;
+						if(url.indexOf('vine.co') !== -1){
+							bot.say(channel, 'Arya uploaded a new video: '+url);
+						}
+					} else if(tweet.entities.hasOwnProperty(media)){
+						if(tweet.entities.media.length > 0){
+							var url = tweet.entities.media[0].media_url;
+							if(url.indexOf('.jpg') !== -1){
+								bot.say(channel, 'Arya uploaded a new picture: '+url);
+							}
+						}
 					}
 				}
 			});
