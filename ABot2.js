@@ -70,13 +70,11 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 						if(url.indexOf('vine.co') !== -1){
 							bot.say(channel, 'Arya uploaded a new video: '+url);
 						}
-					} else if(tweet.entities.hasOwnProperty(media)){
-						if(tweet.entities.media.length > 0){
+					} else if(tweet.entities.media.length > 0){
 							var url = tweet.entities.media[0].media_url;
 							if(url.indexOf('.jpg') !== -1){
 								bot.say(channel, 'Arya uploaded a new picture: '+url);
 							}
-						}
 					}
 				}
 			});
