@@ -99,6 +99,8 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 					addAlias(to, msg);
 				} else if(cmd === 'add'){
 					addLink(to, nick, msg);
+				} else if(cmd === 'lmlmgtfyfy'){
+					googleThis(to, nick, msg);
 				}
 			} else if(operator === '?'){
 				if(cmd === 'uptime'){
@@ -120,6 +122,10 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		//else {
 			//checkUrl(to, text);
 		//}
+	}
+
+	function googleThis(to, nick, msg){
+		bot.say(to, nick: 'http://lmgtfy.com/?q='msg);
 	}
 
 	function addLink(to, nick, msg){
