@@ -125,7 +125,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 	}
 
 	function googleThis(to, nick, msg){
-		bot.say(to, nick:+'http://lmgtfy.com/?q='+msg);
+		bot.say(to, nick+': http://lmgtfy.com/?q='+msg);
 	}
 
 	function addLink(to, nick, msg){
