@@ -260,7 +260,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 					} else {
 						logger.error('Could not save note because base user does not exist or an error occured.',err);
 						bot.say(to, 'I didn\'t send your shitty note.');
-						bot.say(to, 'Maybe the alias does not exist for any base user. Use ?user and ?alias <baseuser> to check.');
+						bot.say(to, 'Maybe the alias does not exist for any base user. Use ?users and ?alias <baseuser> to check.');
 					}
 				}
 			});
