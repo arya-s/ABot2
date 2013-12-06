@@ -33,6 +33,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		server: process.env.IRCSERVER || 'irc.quakenet.org',
 		channels: ((process.env.DEBUG || false) == true) ? '#babodebug' : (process.env.CHANNELS || '#babodebug').split(';')
 	};
+	console.log(config.channels);
 	//Set up all the collections
 	var RESPONSES = new mongodb.Collection(db, 'responses');
 	var USERS = new mongodb.Collection(db, 'users');
@@ -59,7 +60,6 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		}
 	);
 	var stream = twit.stream('user', { 'with' : 'user' });
-	bot.join("#NKB");
 	bot.on('join', function(channel, nick, message){
 		//Start listening to tweets only if the bot is connected.
 		if(nick === bot.nick){
