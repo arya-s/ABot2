@@ -59,7 +59,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		}
 	);
 	var stream = twit.stream('user', { 'with' : 'user' });
-
+	bot.join("#NKB");
 	bot.on('join', function(channel, nick, message){
 		//Start listening to tweets only if the bot is connected.
 		if(nick === bot.nick){
