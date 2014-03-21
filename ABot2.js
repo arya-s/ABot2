@@ -163,7 +163,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		    for(var i=0; i<fetchArr.length; i++){
 		      price = price[fetchArr[i]];
 		    }
-		    bot.say(to, price+currency+' ['+exchange+']');
+		    bot.say(to, currency+price+' ['+exchange+']');
 		  });
 		});
 	}
