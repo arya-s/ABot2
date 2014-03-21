@@ -130,9 +130,9 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		//}
 	}
 
-	function btc(to){
+	function tellBTC(to){
 		btc.price(exchange, function(err, prices){
-			bot.say(to, prices+'[bitstamp]. To change exchange query !btc <[bitstamp|btce|coinbase]>');
+			bot.say(to, prices+'['+exchange+']. To change exchange query !btc <[bitstamp|btce|coinbase]>');
 		});
 	}
 
