@@ -104,7 +104,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 				} else if(cmd === 'lmlmgtfyfy'){
 					googleThis(to, nick, msg);
 				} else if(cmd === 'btc'){
-					changeExchange(to);
+					changeExchange(to, msg);
 				}
 			} else if(operator === '?'){
 				if(cmd === 'uptime'){
@@ -137,6 +137,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 	}
 
 	function changeExchange(to, msg){
+		console.log(msg);
 		if(msg === 'bitstamp'){
 			exchange = 'bitstamp';
 		} else if(msg === 'btce'){
