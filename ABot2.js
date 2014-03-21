@@ -134,7 +134,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 				} else if(cmd === 'links'){
 					tellLinks(to);
 				} else if(cmd === 'btc'){
-					tellBTC(to);
+					tellBTC(to, msg);
 				}
 			}
 		} else {
@@ -148,7 +148,11 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		//}
 	}
 
-	function tellBTC(to){
+	function tellBTC(to, msg){
+		if(btcAPI.hasOwnProperty(msg)){
+			exchange = msg;
+		}
+		
 		var out = '';
 		https.get(btcAPI[exchange].api, function(res){
 		  res.on('data', function(chunk){
@@ -169,17 +173,12 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 	}
 
 	function changeExchange(to, msg){
-		console.log(msg);
-		if(msg === 'bitstamp'){
-			exchange = 'bitstamp';
-		} else if(msg === 'btce'){
-			exchange = 'btce';
-		} else if(msg === 'coinbase'){
-			exchange = 'coinbase';
+		if(btcAPI.hasOwnProperty(msg)){
+			exchange = msg;
+			bot.say(to, 'Exchange changed to '+exchange+'. Use ?btc to query price');
 		} else {
 			bot.say(to, 'Invalid exchange. Try again with <[bitstamp|btce|coinbase]>');
 		}
-			bot.say(to, 'Exchange changed to '+exchange+'. Use ?btc to query price');
 	}
 
 	function googleThis(to, nick, msg){
