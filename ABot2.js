@@ -149,6 +149,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 	}
 
 	function tellBTC(to){
+		var out = '';
 		https.get(btcAPI[exchange].api, function(res){
 		  res.on('data', function(chunk){
 		    out += chunk;
