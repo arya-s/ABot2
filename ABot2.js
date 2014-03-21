@@ -1,3 +1,5 @@
+var btc = require('btc');
+var exchange = 'bitstamp';
 var util = require('./util.js');
 var moment = require('moment');
 var cheerio = require('cheerio');
@@ -101,6 +103,8 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 					addLink(to, nick, msg);
 				} else if(cmd === 'lmlmgtfyfy'){
 					googleThis(to, nick, msg);
+				} else if(cmd === 'btc'){
+					changeExchange(to);
 				}
 			} else if(operator === '?'){
 				if(cmd === 'uptime'){
@@ -111,6 +115,8 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 					tellAlias(to, msg);
 				} else if(cmd === 'links'){
 					tellLinks(to);
+				} else if(cmd === 'btc'){
+					tellBTC(to);
 				}
 			}
 		} else {
@@ -122,6 +128,25 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 		//else {
 			//checkUrl(to, text);
 		//}
+	}
+
+	function btc(to){
+		btc.price(exchange, function(err, prices){
+			bot.say(to, prices+'[bitstamp]. To change exchange query !btc <[bitstamp|btce|coinbase]>');
+		});
+	}
+
+	function changeExchange(to, msg){
+		if(msg === 'bitstamp'){
+			exchange = 'bitstamp';
+		} else if(msg === 'btce'){
+			exchange = 'btce';
+		} else if(msg === 'coinbase'){
+			exchange = 'coinbase';
+		} else {
+			bot.say(to, 'Invalid exchange. Try again with <[bitstamp|btce|coinbase]>');
+		}
+			bot.say(to, 'Exchange changed to '+exchange+'. Use ?btc to query price');
 	}
 
 	function googleThis(to, nick, msg){
