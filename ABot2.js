@@ -1,9 +1,9 @@
-var btc = require('btc');
 var exchange = 'bitstamp';
 var util = require('./util.js');
 var moment = require('moment');
 var cheerio = require('cheerio');
 var http = require('http');
+var https = require('https');
 var winston = require('winston');
 var esc = require('escape-html');
 var logger = new (winston.Logger)({
@@ -12,6 +12,24 @@ var logger = new (winston.Logger)({
       new (winston.transports.File)({ filename: './botlog.log' })
     ]
 });
+var btcAPI = {
+  'bitstamp': {
+    'api': 'https://www.bitstamp.net/api/ticker/',
+    'currency': '$',
+    'fetch': ['last']
+  },
+  'btce': {
+    'api': 'https://btc-e.com/api/2/btc_usd/ticker',
+    'currency': '$',
+    'fetch': ['ticker', 'last']
+  },
+  'coinbase': {
+    'api': 'https://coinbase.com/api/v1/prices/spot_rate',
+    'currency': '$',
+    'fetch': ['amount']
+  }
+};
+
 var mongodb = require('mongodb');
 var url = require('url');
 var connectionUri = url.parse(process.env.MONGOHQ_URL);
@@ -131,8 +149,21 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 	}
 
 	function tellBTC(to){
-		btc.price(exchange, function(err, prices){
-			bot.say(to, prices+'['+exchange+']. To change exchange query !btc <[bitstamp|btce|coinbase]>');
+		https.get(btcAPI[exchange].api, function(res){
+		  res.on('data', function(chunk){
+		    out += chunk;
+		  });
+
+		  res.on('end', function(){
+		    var json = JSON.parse(out);
+		    var currency = btcAPI[exchange].currency;
+		    var price = json;
+		    var fetchArr = btcAPI[exchange].fetch;
+		    for(var i=0; i<fetchArr.length; i++){
+		      price = price[fetchArr[i]];
+		    }
+		    bot.say(to, price+currency+' ['+exchange+']');
+		  });
 		});
 	}
 
