@@ -51,7 +51,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 	var config = {
 		botname: process.env.BOTNAME || 'abot2',
 		server: process.env.IRCSERVER || 'irc.quakenet.org',
-		channels: ((process.env.DEBUG || false) == true) ? '#babodebug' : (process.env.CHANNELS || '#babodebug').split(';')
+		channels: ((process.env.DEBUG || false) === true) ? '#babodebug' : (process.env.CHANNELS || '#babodebug').split(';')
 	};
 	console.log(config.channels);
 	//Set up all the collections
@@ -81,17 +81,18 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 	);
 	var stream = twit.stream('user', { 'with' : 'user' });
 	bot.on('join', function(channel, nick, message){
+		var url;
 		//Start listening to tweets only if the bot is connected.
 		if(nick === bot.nick){
 			stream.on('tweet', function (tweet) {
 				if(tweet.user.screen_name === 'Lngly_'){
 					if(tweet.entities.urls.length > 0){
-						var url = tweet.entities.urls[0].expanded_url;
+						url = tweet.entities.urls[0].expanded_url;
 						if(url.indexOf('vine.co') !== -1){
 							bot.say(channel, 'Arya uploaded a new video: '+url);
 						}
 					} else if(tweet.entities.media.length > 0){
-							var url = tweet.entities.media[0].media_url;
+							url = tweet.entities.media[0].media_url;
 							if(url.indexOf('.jpg') !== -1){
 								bot.say(channel, 'Arya uploaded a new picture: '+url);
 							}
@@ -330,7 +331,7 @@ mongodb.Db.connect(process.env.MONGOHQ_URL, function(err, db){
 	function addAlias(to, msg){
 		var splitted = util.trim(msg.toLowerCase()).split(' ');
 		if(splitted.length === 2){
-			util.trim(msg.toLowerCase())
+			util.trim(msg.toLowerCase());
 			var user = splitted[0];
 			var alias = splitted[1];
 			USERS.find({ name: user }).toArray(function(err, data){
